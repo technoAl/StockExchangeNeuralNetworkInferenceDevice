@@ -2,11 +2,10 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from newsapi import NewsApiClient
-
-
+import os
 import requests
 
-query = 'tesla'
+query = 'Tesla'
 url = ('https://newsapi.org/v2/everything?'
        'q=' + query + '&'
        'from=2019-10-31&'
@@ -21,15 +20,24 @@ print(data['totalResults'])
 data = data['articles']
 print(len(data))
 count = 0
+path = '../' + query + 'TrainingData' + '/'
 for i in data:
        tmpDict = dict(i)
-       file = open(query + str(count) + '.txt', 'w+')
-       page = requests.get(tmpDict['url'])
+       fullName = path + query + str(count) + '.txt'
+       os.makedirs(os.path.dirname(fullName),exist_ok=True)
+       file = open(fullName, 'w')
+       try:
+              page = requests.get(tmpDict['url'])
+       except:
+              print('page failed')
        if page.status_code == 200:
               soup = BeautifulSoup(page.content, "lxml")
               all_tags = soup.find_all('p')
               for i in all_tags:
-                     file.write(i.get_text())
+                     try:
+                            file.write(i.get_text())
+                     except Exception as inst:
+                            print('darned emojis')
        else:
               print("unfortunate failure")
        file.close()
