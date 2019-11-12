@@ -13,6 +13,10 @@ import csv
 def obtainTrainingData(code, year, month, day):
        date = str(year) + '-' + str(month) + '-' + str(day)
        query = get_symbol(code).split(',')[0]
+       today = datetime(year, month, day)
+       print(today.weekday())
+       if today.weekday() >= 5:
+              return
        url = ('https://newsapi.org/v2/everything?'
               'q=' + query + '&'
               'from=' + date + '&'
@@ -65,16 +69,21 @@ def get_symbol(symbol):
 
 def getStock(code, year, month, day):
     start = datetime(year, month, day)
+
     stock = get_historical_data(code, start, start, token='pk_3fc4f2751a6746f3b1cdc30763095572')
-    dict = stock[str(year) + '-' + str(month) + '-' + str(day)]
+    if day >= 10:
+       dict = stock[str(year) + '-' + str(month) + '-' + str(day)]
+    else:
+           dict = stock[str(year) + '-' + str(month) + '-' + '0' + str(day)]
     return dict['close'] - dict['open']
 
 if __name__ == '__main__':
-       for i in range(13,31):
-              print('10' + '-' + str(i) + '\n')
-              obtainTrainingData('TSLA', 2019, 10, i)
-       for i in range(1, 12):
-              print('11' + '-' + str(i) + '\n')
-              obtainTrainingData('TSLA', 2019, 10, i)
+       # for i in range(13,32):
+       #        print('10' + '-' + str(i) + '\n')
+       #        obtainTrainingData('TSLA', 2019, 10, i)
+       # for i in range(1, 12):
+       #        print('11' + '-' + str(i) + '\n')
+       #        obtainTrainingData('TSLA', 2019, 11, i)
+       obtainTrainingData('TSLA', 2019, 10, 31)
 
 
