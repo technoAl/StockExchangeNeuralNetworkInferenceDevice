@@ -4,11 +4,15 @@ from bs4 import BeautifulSoup
 from newsapi import NewsApiClient
 import os
 import requests
+from iexfinance.stocks import Stock
+from iexfinance.stocks import get_historical_data
+from datetime import datetime
+import numpy as np
+import csv
 
-if __name__ == '__main__':
-       main('Tesla', '2019-10-31')
-
-def main(query, date):
+def obtainTrainingData(code, year, month, day):
+       date = str(year) + '-' + str(month) + '-' + str(day)
+       query = get_symbol(code).split(',')[0]
        url = ('https://newsapi.org/v2/everything?'
               'q=' + query + '&'
               'from=' + date + '&'
@@ -18,11 +22,12 @@ def main(query, date):
               'language=en')
        response = requests.get(url)
        data = response.json()
+       print(data)
        print(data['totalResults'])
        data = data['articles']
        print(len(data))
        count = 0
-       path = '../' + query + 'TrainingData' + '/'
+       path = '../'+ 'TrainingData' + '/' + query + 'TrainingData' + '_' +  date +'/'
        for i in data:
               tmpDict = dict(i)
               fullName = path + query + str(count) + '.txt'
@@ -44,3 +49,29 @@ def main(query, date):
                      print("unfortunate failure")
               file.close()
               count+=1
+       fullName = path + query + '.csv'
+       os.makedirs(os.path.dirname(fullName), exist_ok=True)
+       with open (fullName, 'w', newline='') as csvfile:
+              writer = csv.writer(csvfile , delimiter=',')
+              writer.writerow([query] + [getStock(code, year, month, day)])
+
+
+def get_symbol(symbol):
+    url = "http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={}&region=1&lang=en".format(symbol)
+    result = requests.get(url).json()
+    for x in result['ResultSet']['Result']:
+        if x['symbol'] == symbol:
+            return x['name']
+
+def getStock(code, year, month, day):
+    start = datetime(year, month, day)
+    stock = get_historical_data(code, start, start, token='pk_3fc4f2751a6746f3b1cdc30763095572')
+    dict = stock[str(year) + '-' + str(month) + '-' + str(day)]
+    return dict['close'] - dict['open']
+
+if __name__ == '__main__':
+       for month in range(1,11):
+              for day in range (1, 31):
+                     print(str(month) + '-' + str(day) + '\n')
+                     obtainTrainingData('TSLA', 2019, month, day)
+
