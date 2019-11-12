@@ -18,11 +18,11 @@ def obtainTrainingData(code, year, month, day):
               'from=' + date + '&'
               'sortBy=popularity&'
               'apiKey=13bd628fa8b548738d3b113d9442574e&'
-              'pageSize=40&'
+              'pageSize=100&'
               'language=en')
        response = requests.get(url)
        data = response.json()
-       print(data)
+       #print(data)
        print(data['totalResults'])
        data = data['articles']
        print(len(data))
@@ -70,8 +70,11 @@ def getStock(code, year, month, day):
     return dict['close'] - dict['open']
 
 if __name__ == '__main__':
-       for month in range(1,11):
-              for day in range (1, 31):
-                     print(str(month) + '-' + str(day) + '\n')
-                     obtainTrainingData('TSLA', 2019, month, day)
+       for i in range(13,31):
+              print('10' + '-' + str(i) + '\n')
+              obtainTrainingData('TSLA', 2019, 10, i)
+       for i in range(1, 12):
+              print('11' + '-' + str(i) + '\n')
+              obtainTrainingData('TSLA', 2019, 10, i)
+
 
