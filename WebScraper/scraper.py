@@ -57,7 +57,10 @@ def obtainTrainingData(code, year, month, day):
        os.makedirs(os.path.dirname(fullName), exist_ok=True)
        with open (fullName, 'w', newline='') as csvfile:
               writer = csv.writer(csvfile , delimiter=',')
-              writer.writerow([query] + [getStock(code, year, month, day)])
+              try:
+                     writer.writerow([query] + [getStock(code, year, month, day)])
+              except:
+                     print('no stock data')
 
 
 def get_symbol(symbol):
@@ -77,12 +80,33 @@ def getStock(code, year, month, day):
        return dict['close'] - dict['open']
 
 if __name__ == '__main__':
-       # for i in range(13,32):
-       #        print('10' + '-' + str(i) + '\n')
-       #        obtainTrainingData('TSLA', 2019, 10, i)
-       # for i in range(1, 12):
-       #        print('11' + '-' + str(i) + '\n')
-       #        obtainTrainingData('TSLA', 2019, 11, i)
-       obtainTrainingData('TSLA', 2019, 10, 31)
+       # path = '../' + 'TrainingData' + '/'
+       # query = 'Tesla'
+       # fullName = path + query + '.csv'
+       # os.makedirs(os.path.dirname(fullName), exist_ok=True)
+       # with open(fullName, 'w', newline='') as csvfile:
+       #        writer = csv.writer(csvfile, delimiter=',')
+       #        for i in range(12, 32):
+       #               today = datetime(2019, 10, i)
+       #               print(today.weekday())
+       #               if today.weekday() >= 5:
+       #                      continue
+       #               print('10' + '-' + str(i) + '\n')
+       #               st = '2019' + '-' + '10' + '-' + str(i)
+       #               writer.writerow([st] + [getStock('TSLA', 2019, 10, i)])
+       #               # obtainTrainingData('TSLA', 2019, 10, i)
+       #        for i in range(1, 13):
+       #               today = datetime(2019, 11, i)
+       #               print(today.weekday())
+       #               if today.weekday() >= 5:
+       #                      continue
+       #               print('11' + '-' + str(i) + '\n')
+       #               st = '2019' + '-' + '11' + '-' + str(i)
+       #               print(st)
+       #               writer.writerow([st] + [getStock('TSLA', 2019, 11, i)])
+
+
+              #obtainTrainingData('TSLA', 2019, 11, i)
+       obtainTrainingData('TSLA', 2019, 11, 12)
 
 
