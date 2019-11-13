@@ -1,0 +1,223 @@
+Our mission is to help leaders in multiple sectors develop a deeper understanding of the global economy.Our flagship business publication has been defining and informing the senior-management agenda since 1964.Our learning programs help organizations accelerate growth by unlocking their people's potential.Technology continues to race ahead, bringing innovative applications seemingly bound only by the imagination. Automation, the industrial Internet of Things, and robotics, among others, are transforming the way companies approach the production and delivery of goods. The coming years could bring completely automated manufacturing floors, increasingly transparent supply chains, flexible operating models—even the emergence of “dark warehouses,” which require no human workforce.
+1
+
+
+
+
+            1.
+        
+
+            Ben Ames, “It’s lights out in the warehouse,” CAM’s Industrial Corner, August 2016, Volume 7, pp. 1–3, cohenasset.com.
+        
+
+
+
+
+
+
+
+ Such breakthroughs are closer to reality than ever before. Consider that Tesla has claimed the production of its Model 3 is already 95 percent automated.
+2
+
+
+
+
+            2.
+        
+
+            Tom Randall, “Inside Tesla’s Model 3 factory,” Bloomberg, June 8, 2018, Bloomberg.com; Fred Lambert, “Tesla says the Model 3 body line is now 95% automated,” electrek, June 8, 2018, electrek.co.
+        
+
+
+
+
+
+
+
+ Similarly, in late 2018, DHL launched an automated distribution center that boosted productivity by 60 percent over nonautomated facilities.
+3
+
+
+
+
+            3.
+        
+
+            Michael Angell, “DHL Group wooing US e-commerce retailers with moves to automate distribution,” Freight Waves, December 1, 2018, freightwaves.com.
+        
+
+
+
+
+
+
+Digital technologies—including analytics, the Internet of Things, artificial intelligence, and machine learning—have tremendous potential to fundamentally change how industrial companies operate. Organizations will need to undertake an end-to-end transformation to harness these technologies and capture the next level of value. The term “tech-enabled transformation” reflects technology’s role as a catalyst in this journey for industrial companies as well as its role in supporting and accelerating change throughout the organization.Such innovations represent a tremendous opportunity. In 2018, McKinsey identified $1 trillion of potential value that industrial companies could capture by deploying a tech-enabled transformation (see sidebar, “Defining a tech-enabled transformation”).
+4
+
+
+
+
+            4.
+        
+
+            Venkat Atluri, Saloni Sahni, and Satya Rao, “The trillion-dollar opportunity for the industrial sector: How to extract full value from technology,” November 2018.
+        
+
+
+
+
+
+
+
+ Yet arguably, the impact to date in industrials has barely scratched the surface. Indeed, most CEOs would admit they are in only the early stages of deploying technology at scale and achieving the promised impact. Tech-enabled and digital transformations are a top-of-mind issue for CEOs, but few companies currently sponsor digital initiatives, and even fewer are achieving the targets they have set.The question of why industrial companies trail their peers is a complex one. Industrials do face some of the same challenges as organizations in other sectors—from outdated infrastructure to lack of necessary talent—but they must also grapple with systemic obstacles before beginning to capture potential value. Issues are as likely to emerge around people and execution as around technological complexity.A successful tech-enabled transformation requires organizations to make progress on several paths simultaneously, a prospect that can seem overwhelming. Only by following a structured, comprehensive playbook can companies translate their transformation priorities from strategy to action. A two-step methodology supported by several enablers can provide companies with the direction, priorities, and organizational capabilities to maximize the value of such investments. Indeed, companies that took a comprehensive approach to their transformation generated more than twice as much value as organizations focused solely on technology improvements.
+5
+
+
+
+
+            5.
+        
+
+            “Unlocking success in digital transformations,” October 2018.
+        
+
+
+
+
+
+
+Across sectors, achieving a successful tech-enabled transformation is a tall order. Industrial companies have a number of built-in obstacles that they must address—some the result of decades of strategic decisions. Historically, the C-suite has not been closely involved in digital transformations. This habit may stem from an aversion to using data and analytics to inform decision making or support functions such as operations, sales, and finance. Further, industrial companies often apply platforms or tools ad hoc or for specific use cases rather than rolling them out on an enterprise level across business domains.The way that industrial companies have evolved can also create challenges. Many businesses grow through acquisition, so their IT infrastructure can be a patchwork of multiple platforms and systems that have never been properly integrated. Companies also commonly have manufacturing facilities and machinery from the 1940s and 1950s, making modernization efforts time-consuming and expensive. Still others lack the required in-depth understanding of digital technologies. For example, even if a company has adopted the cloud, its leaders might not have figured out how to link modernization efforts to value. We have also found cost to be a recurring obstacle: with lingering skepticism about the impact of technology investments, executives can pull the plug on projects the moment difficulties emerge.A lack of sufficient talent and capabilities is not a challenge unique to industrials, but these companies must address it from several angles. Not only must they upskill existing talent to create a more technologically savvy workforce. They also need to attract top candidates to implement analytics-based solutions. And while industrial companies have the resources to hire qualified tech talent, their overall strategy and culture must ensure that analytics hires can make the desired impact—a considerably heavier lift.50% more value generated by companies that took a comprehensive approach to their transformation, as opposed to those that focused solely on technology improvementsA transformation playbook, consisting of two phases and four enablers, can help industrial companies break free of their legacy approaches to pursuing a tech-enabled transformation (Exhibit 1). While the guide may appear straightforward and intuitive, its impact depends on comprehensive and coordinated execution of all elements. Following the playbook for an ambitious transformation will maximize the chances of success, but companies must ensure they have leadership’s buy-in and involvement as well as bottom-up engagement.The tech-enabled transformation starts with a CEO’s vision of the company’s transformation. Too often, conversations about how to apply technology end up focusing on specific use cases that get lost in a sea of business priorities. Instead, senior executives must envision a transformed business model across a set of domains. Our research identified five business domains with the greatest potential value in a tech-enabled transformation: making and delivering, selling, running the corporation, servicing, and innovating and developing products and services.
+6
+
+
+
+
+            6.
+        
+
+            For more on these domains, see Atluri, Sahni, and Rao, “The trillion-dollar opportunity for the industrial sector.”
+        
+
+
+
+
+
+
+The assessment of an organization’s current state should quantify the value and feasibility of achieving targets on an accelerated timeline. A company can capture its aspirational value only by considering a portfolio of use cases within each business domain. Companies can then prioritize use cases based on their potential value and feasibility (Exhibit 2). In contrast, companies that start by focusing on targeted use cases instead of business domains undermine the impact of transformation. For example, the IT organization could work with the sales operations team to deploy dynamic pricing, but without a broader vision and ambitious transformation in mind, the value is likely to be limited.When selecting use cases, industrial companies should ensure that the value at stake is measurable and meaningful such that it has the potential to change the organization’s trajectory. A well-executed tech-enabled transformation will have direct impact on revenue growth, margins, and new revenue streams from new business models or services. As part of the assessment phase, companies should set clear goals for each use case (based on the domains affected by the transformation).Reimagining a business domain typically requires not just inspiration but also an ambitious goal. At one industrial company, a CEO sought to increase the margin profile by 200 basis points within a year by harnessing technology. This goal was clearly tied to profit and loss, so the entire organization was affected. One of its biggest business domains was selling, which had more than 1,000 staff using legacy or ad hoc relationships, tools, and methodologies. Leadership decided to digitalize the sales process by using data-driven insights in every area, from lead generation and pricing to the expansion of share of wallet with customers.Once the CEO was convinced of the potential value from the business domain and the leaders bought into the ambitious goals, the company made technology investments across a range of use cases that directly supported the business domain transformation. The decision-making process also clarified the path to build capabilities and transform the organization. Upon deployment, the company saw margins increase by 50 basis points in the first three months—a quick result that built momentum and engagement.A well-executed tech-enabled transformation will have direct impact on revenue growth, margins, and new revenue streams from new business models or services.The second phase is critical because it involves developing the internal capabilities and infrastructure to execute on the road map. As with any transformation, speed and acceleration are critical, but consistent follow-through and continuous improvement are also vital. When these programs are launched at scale, companies often report an initial uptick in productivity created by employee excitement in capability building and new tools. However, this progress can quickly plateau without a robust and closed-loop performance-management process.Too often we see performance management and value assurance undermined by the challenges of reaching employees at multiple locations. In such instances, the best performers improve and some go-getters participate, but a large chunk of the organization sees marginal or no gains. Organizations that link standardized metrics to technology solutions can provide executives with the information they need to encourage participation and gauge progress.Four enablers can equip industrial companies with the infrastructure and capabilities to execute a tech-enabled transformation.Companies often greatly underestimate the investment in the capabilities needed to support a tech-enabled transformation. These capabilities can be broken into two categories: workers with the skills and agile mind-set to develop and scale digital and analytical solutions; and leaders and employees—including those within sales and frontline manufacturing—that harness data-driven insights for the greatest impact.Scaling the talent to design digital and analytical solutions usually requires a different approach to talent attraction and development. In addition to seeking candidates outside the usual sources, organizations will need to manage new hires differently from how they manage legacy talent. In many cases, the incentives and management processes must be significantly revised to motivate this new wave of hires.One of the greatest challenges in building capabilities is variability in leadership. To overcome it, industrial companies should continue investing in capable leaders to manage performance centrally and lead change across the organization. With this level of change, companies must also typically address mind-sets, as additional scrutiny into operations can be met with fear and suspicion.Enhancing leadership and workforce capabilities requires a combination of standard and tailored training programs across every level of the organization. This effort must be ongoing and requires the right content, tools, and reinforcement. In the industrial company noted previously, it was essential to build the capabilities of the sales staff, which had not been exposed to data-driven sales approaches.As a first step, companies must evaluate individuals to prioritize skills gaps and development needs. A blend of formal training, applied and social learning, and coaching supported by systems and processes can help organizations build the desired skills and behaviors at all levels. A common pitfall in capability building is a “one-and-done” model, in which companies undergo large-scale rollouts across their front lines—without a reinforcement model.
+7
+
+
+
+
+            7.
+        
+
+            Martin Reeves and Kevin Whitaker, “Digital transformation: Disruptions, delusions and defenses,” BCG Henderson Institute, April 30, 2019, bcghendersoninstitute.com.
+        
+
+
+
+
+
+
+
+ In reality, fundamentally changing capabilities requires a continuous-learning approach.It is essential for companies to address technology infrastructure at all levels of the organization. For the back end, a next-generation data platform that can aggregate data from a broad set of sources and empower high-speed software development is foundational to a tech-enabled transformation. This platform then supports front-end solutions that draw on data and analytics to support better business operations (Exhibit 3).Companies must also adopt a broader perspective regarding decisions on their tech stack—for example, finding ways to aggregate and consolidate data sources in a centralized data lake. Although the prospect of consolidating data from multiple distributed sources can be intimidating, companies can still make iterative progress. Many industrial companies that partner with cloud players assume their work is done,
+8
+
+
+
+
+            8.
+        
+
+            Thomas Barrabi, “Volkswagen, Amazon partner on cloud network to boost production,” Fox Business, March 27, 2019, foxbusiness.com; Eva Yoo, “Alibaba Cloud’s partnership with Hitachi shows how much traditional companies need the cloud,” technode, July 4, 2017, technode.com.
+        
+
+
+
+
+
+
+
+ but that couldn’t be further from the truth. Building a data bed on top of a cloud platform and developing the analytics tools to turn data into actionable insights is a major undertaking. In addition, data-visualization tools are needed to track key performance indicators linked to outcomes so that executives can monitor progress.Since getting out of the starting gate quickly can help companies establish momentum, they should adopt an agile approach to technology deployment.
+9
+
+
+
+
+            9.
+        
+
+            For more on agile, see Wouter Aghina, Karin Ahlback, Aaron De Smet, Gerald Lackey, Michael Lurie, Monica Murarka, and Christopher Handscomb, “The five trademarks of agile organizations,” January 2018.
+        
+
+
+
+
+
+
+
+ Emphasizing quick iterative cycles can not only focus an organization’s energy and resources but also increase engagement and accountability. Too often we see companies stretch technology development out unnecessarily (a year, for instance, is far too long).The industrial company that embarked on the tech-enabled transformation for its sales staff developed a data lake as a key asset.
+10
+
+
+
+
+            10.
+        
+
+            A data lake is a standardized data bed that houses data from different sources in one common area.
+        
+
+
+
+
+
+
+
+ Since building a production-ready tool would typically take eight to ten months, the company pursued an alternative short-term data bed that could be launched in a two-month sprint. This project gave the sales team early insights into how to pursue low-hanging fruit and short-term opportunities for immediate results. Thinking creatively and in an agile manner gave the sales team the tools it needed to sustain the impact.In many ways, the success of a tech-enabled transformation comes down to the effectiveness of a company’s performance infrastructure. Indeed, so much value in technology projects can be lost without it. For example, half of enterprise-resource-planning implementations fail on the first attempt, and most cost three to four times as much as the original budget.
+11
+
+
+
+
+            11.
+        
+
+            Technology Evaluation Centers, “ERP software facts and stats—and lessons learned,” blog entry by TEC team, June 5, 2018, technologyevaluation.com.
+        
+
+
+
+
+
+
+
+ A mature, robust performance infrastructure can help keep such initiatives on track by promoting accountability, coordination, and visibility into progress.Performance infrastructure has three primary components:A tech-enabled transformation can be successful only if it is applied directly to the core organization—not piloted in a parallel organization. For the operating model to change, executives must alter the way they manage the business. For example, many companies have monthly operational or business reviews, in which the CEO and CFO talk to the business leaders. Using digital tools and dashboards in these reviews and establishing KPIs will reinforce the new approach throughout the rest of the business.Transformations of this magnitude will not happen without visible and regular senior leadership involvement. Therefore, the CEO, CFO, and heads of business units must model the desired change. When they use the same technology and tools and are visible in plants, slow-adopting employees may gain extra motivation to embrace new ways of working.Any transformation faces long odds of succeeding: McKinsey research has found that around 70 percent of all attempts (both digital and nondigital) fail.
+12
+
+
+
+
+            12.
+        
+
+            Brent Gleeson, “1 reason why most change management efforts fail,” Forbes, July 25, 2017, forbes.com; Boris Ewenstein, Wesley Smith, and Ashvin Sologar, “Changing change management,” July 2015.
+        
+
+
+
+
+
+
+
+ Of the 30 percent that produce the expected value, a majority follow a structured process that focuses on several playbook elements.Our experience managing more than ten tech-enabled deployments in the industrial sector and a survey of more than 20 B2B companies (a combination of industrial, oil and gas, utilities, agriculture, and hardware organizations) that underwent significant tech-enabled transformations reinforce these findings. When companies concentrate on all aspects of infrastructure and execution in a coordinated fashion, they are significantly more likely to capture a greater share of a transformation’s potential value.All of the companies in our sample set ambitious objectives (such as to increase earnings before interest, taxes, depreciation, and amortization by at least 10 percent). The study found a direct correlation between impact through technology (as defined by the percentage of the target aspiration achieved in 24 months) and the effectiveness of the transformation process (Exhibit 5).The playbook for a tech-enabled transformation is composed of multiple initiatives that touch every part of the enterprise—a daunting proposition. Our experience with successful transformations identified some common themes:Experience shows that companies that approach tech-enabled transformations through a technology-focused lens can only capture about 50 percent of the potential business value. However, industrial companies that follow this comprehensive playbook can secure substantially more value.Venkat Atluri and Aamer Baig are senior partners in McKinsey’s Chicago office, where Satya Rao is a partner.The authors wish to thank Aritra Gupta, Saloni Sahni, and Rachel Stuhldreher for their contributions to this article.Please sign in to print or download this article.Please create a profile to print or download this article.
+                                    Create a profile to get full access to our articles and reports, including those by McKinsey Quarterly and the McKinsey Global Institute, and to subscribe to our newsletters and email alerts.
+                                  McKinsey uses cookies to improve site functionality, provide you
+						with a better browsing experience, and to enable our partners to advertise to you. Detailed information on the
+						use of cookies on this Site, and how you can decline them, is provided in our cookie policy. By using
+						this Site or clicking on "OK", you consent to the use of cookies.
+Sign up for email alerts
+
+            Select topics and stay current with our latest insights
+        

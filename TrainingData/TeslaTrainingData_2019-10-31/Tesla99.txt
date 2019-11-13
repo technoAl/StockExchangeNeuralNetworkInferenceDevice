@@ -1,0 +1,18 @@
+1,18012FeaturedMy wife and I were trying to figure out what she could wear for Halloween.  This brainstorming session was a couple nights before she needed it to needless to say I was a bit rushed.  She came up with this idea of showing off how far along she was with the pregnancy the same way I had years before with a Tesla charging station.-Arduino compatible board (I used a NodeMCU board)-RGB Addressable LED strip-Pushbutton-Wire-Soldering iron-Cloth-Hot glueTeachers! Did you use this instructable in your classroom? Add a Teacher Note to share how you incorporated it into your lesson.So I was running low on LEDs and all I could scrounge up were precut pieces I had used on other projects.  To fix this I had to solder the pieces back together as you can see in the photo.  I also soldered the power, ground and data wires which will be connected to the NodeMCU board.I took a button I had lying around (two pins).  I cut some old computer cable, two strips each about a foot and a half long.  I stripped the ends and soldered one end of each wire to a button pin.  I then 3D printed this enclose I designed.  It was measured for a different button design, which I found out the button was broken.  Instead of reprinting a modified design I just held the button in place and hot glued it.  I have attached the stl for the holder that I printed.I used a NodeMCU board because that's what I had lying around.  I first used jumper wires to test out the button and the LED connections.  Once I had the code working correctly I soldered the wires tot he top of the board and then cut off the pins on the bottom of the board.  I have attached the arduino code.I admit this is a quick job so the soldering isn't pretty and I could have have desoldered the pins but I was rushed for time.So I marked out where the shirt would fall on my wife's stomach.  I printed the battery cover, first few layers in black then manually switched the colors to blue.  Once it was done I hot glued it to the shirt.  Once the hot glue had hardened i turned the shirt inside out and hot glued the board and LEDs to the shirt.  To soften the shape of the electronics board and not make the shirt painful when wearing I used this flexible foam material I had left over from when some furniture was delivered (i'll be honest not sure what it is but it's pretty strong and easy to use).  I put that on both sides of the board and the back side of the LED strip.  Once everything was all glued up I attached the battery pack to test it out.I am very happy with the final result!!!This is an entry in the Halloween Contest 2019Did you make this project? Share it with us!by megardi in
+                        
+                            Circuitsby MargenauMaker in
+                        
+                            Arduinoby DIY Machines in
+                        
+                            Arduino23,199 Enrolled
+                    
+                    
+                    7 days ago
+                    
+                1) Hilarious! Thank you for (over)sharing :-) I love it! (voted)2) For the next gravid Halloween, how about fitting a display underneath the T-shirt and running a loop of the video of the ultrasound scan too?
+                    
+                        Reply
+                    
+                    7 days ago
+                    
+                Thanks for the comment.  That’s a funny idea!  I’ll have to consider it for next year!© 2019 Autodesk, Inc.

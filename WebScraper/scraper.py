@@ -61,21 +61,20 @@ def obtainTrainingData(code, year, month, day):
 
 
 def get_symbol(symbol):
-    url = "http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={}&region=1&lang=en".format(symbol)
-    result = requests.get(url).json()
-    for x in result['ResultSet']['Result']:
-        if x['symbol'] == symbol:
-            return x['name']
+       url = "http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={}&region=1&lang=en".format(symbol)
+       result = requests.get(url).json()
+       for x in result['ResultSet']['Result']:
+              if x['symbol'] == symbol:
+                     return x['name']
 
 def getStock(code, year, month, day):
-    start = datetime(year, month, day)
-
-    stock = get_historical_data(code, start, start, token='pk_3fc4f2751a6746f3b1cdc30763095572')
-    if day >= 10:
-       dict = stock[str(year) + '-' + str(month) + '-' + str(day)]
-    else:
-           dict = stock[str(year) + '-' + str(month) + '-' + '0' + str(day)]
-    return dict['close'] - dict['open']
+       start = datetime(year, month, day)
+       stock = get_historical_data(code, start, start, token='pk_3fc4f2751a6746f3b1cdc30763095572')
+       if day >= 10:
+              dict = stock[str(year) + '-' + str(month) + '-' + str(day)]
+       else:
+              dict = stock[str(year) + '-' + str(month) + '-' + '0' + str(day)]
+       return dict['close'] - dict['open']
 
 if __name__ == '__main__':
        # for i in range(13,32):

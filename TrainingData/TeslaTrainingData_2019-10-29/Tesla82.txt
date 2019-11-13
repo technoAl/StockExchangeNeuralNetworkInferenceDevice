@@ -1,0 +1,16 @@
+by Denver Gingerich
+  on October 30, 2019
+It has been many years since we started working with Tesla to help them resolve their ongoing GPL violations.  However, Tesla has still not provided the necessary source code for their cars (a benefit of ownership enshrined in the GPL, which Tesla chooses to use) and the incomplete versions of source they have released are more than 17 months old (at the time of this writing), despite new firmware being continuously delivered to Tesla vehicles.  There have even been several updates within the past month.  We know Tesla owners that care about software freedom are frustrated that they cannot exercise theirs.We are looking for new ways to approach this issue.  In particular, we are hoping to engage with interested Tesla owners to determine how we can work together and collectively improve the situation.If you own a Tesla Model S, Model X, or Model 3, or know someone who does (especially in Canada, where I live) and would be interested in joining a discussion with Conservancy and other Tesla owners about this issue, please email us indicating your interest in the Tesla discussion.  We'll get back to you in a day or two with details on how to join the conversation.Please spread the word. Help us continue our work to bring meaningful software freedom to new classes of hardware, one manufacturer at a time.[permalink]Tags:
+  
+  GPLPlease email any comments on this entry to
+  info@sfconservancy.org.Other Conservancy Blog entries…Connect with Conservancy on
+        Mastodon,
+        Twitter,
+        pump.io,
+        Facebook,
+        and YouTube.Main Page | Contact | Sponsors | Privacy Policy | RSS FeedOur privacy policy was last updated 25 May 2018.
+
+This page, and all contents herein, unless a license is otherwise
+      specified, are licensed under a
+      Creative
+      Commons Attribution-ShareAlike 4.0 International License.
