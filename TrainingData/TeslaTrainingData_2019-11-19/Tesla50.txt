@@ -1,0 +1,21 @@
+SAN JOSE, Calif.--(BUSINESS WIRE)--Surfaceink, a Silicon Valley pioneer in consumer electronic product design and development for Fortune 500 companies and start-ups, announced its recent qualification as a Consulting and Professional Service Provider (CPS) for Amazon’s Alexa Voice Services (AVS). As an AVS CPS, Surfaceink provides technical support and guidance to OEMs and Brands looking to simplify their Alexa Built-in integrations, accelerate time-to-market, and drive innovation in strategic segments resulting in consistent, high-quality Alexa experiences for end customers.
+
+“As we continue to make the vision of ambient computing a reality, we have expanded our Service Provider network to support consumer and enterprise customers in building new voice-enabled devices and experiences with Alexa,” said Laura Szkrybalo, Head of the Alexa Voice Service Solution Provider Program. “Consulting and Professional Services providers are a category of companies who offer their clients product development, software, and services using Alexa SDKs, skills and cloud integrations.”
+
+“Our team is excited to offer new additional services such as consulting, prototyping and device implementation to our OEM partners,” says Eric Bauswell, CEO and Founder of Surfaceink. “We are now able to provide an array of strategic consulting services to help companies determine how voice —AVS and Skills—can play a role in your business - from product ideation, through implementation, launch, and post-launch services. That’s pretty exciting.”
+
+As part of these strategic consulting services, Surfaceink can also conduct deep dive workshops with detailed recommendations to help OEM executives and development teams make any strategic trade-offs required to achieve a robust and customized voice journey. The outcome of the strategic review could include implementing a voice-enabled device supported by Surfaceink.
+
+“With the additional training, tools and support that Amazon provided Surfaceink, and our own proven track record of audio and voice development, our seasoned CPS team will have the ability to tackle even the most challenging voice endeavors for OEMS looking to integrate Alexa,” says Scott McNeese, Director of Voice and Smart Solutions.
+
+Surfaceink will soon launch a new FlexConnect Voice Module; this is a development kit and reference architecture to create products with intelligent voice control using the Alexa Voice Service (AVS). This advanced hardware solution provides options for audio front-end voice technologies, including mic arrays, audio algorithms for echo cancellation, and wake word engine technology at various performance and cost points.
+
+Surfaceink provides full-system product design, development, and consulting services for Fortune 500 companies and startups including work on flagship products for global leaders such as Amazon, Apple, Broadcom, Cisco, Dell, Dolby, Fitbit, Google, HP, Intel, Microsoft, Motorola, Oculus, Pepsi, Plantronics, Qualcomm, and Tesla. Surfaceink is a privately held company based in San Jose, CA.
+
+For more information about Surfaceink’s Consulting & Professional Service (CPS) capabilities, visit www.surfaceink.com / or call Eric Bauswell at 408-293-3010.
+
+Eric Bauswell
+408-293-3010
+Product design and development firm Surfaceink named as a Consulting and Professional Service Provider (CPS) for Amazon’s Alexa Voice Services (AVS)
+Eric Bauswell
+408-293-3010

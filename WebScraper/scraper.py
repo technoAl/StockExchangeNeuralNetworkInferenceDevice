@@ -21,6 +21,7 @@ def obtainTrainingData(code, year, month, day):
               'q=' + query + '&'
               'from=' + date + '&'
               'sortBy=popularity&'
+              'pageSize=100&'
               'apiKey=13bd628fa8b548738d3b113d9442574e&'
               'language=en')
        response = requests.get(url)
@@ -87,16 +88,16 @@ if __name__ == '__main__':
               writer = csv.writer(csvfile, delimiter=',')
 
 
-              for i in range(18, 32):
-                     # today = datetime(2019, 10, i)
-                     # print(today.weekday())
-                     # if today.weekday() >= 5:
-                     #        continue
-                     # print('10' + '-' + str(i) + '\n')
-                     # st = '2019' + '-' + '10' + '-' + str(i)
-                     # writer.writerow([st] + [getStock('TSLA', 2019, 10, i)])
-                      obtainTrainingData('TSLA', 2019, 10, i)
-              for i in range(1, 19):
+              # for i in range(18, 32):
+              #        # today = datetime(2019, 10, i)
+              #        # print(today.weekday())
+              #        # if today.weekday() >= 5:
+              #        #        continue
+              #        # print('10' + '-' + str(i) + '\n')
+              #        # st = '2019' + '-' + '10' + '-' + str(i)
+              #        # writer.writerow([st] + [getStock('TSLA', 2019, 10, i)])
+              #         obtainTrainingData('TSLA', 2019, 10, i)
+              # for i in range(1, 19):
                      # today = datetime(2019, 11, i)
                      # print(today.weekday())
                      # if today.weekday() >= 5:
@@ -105,7 +106,7 @@ if __name__ == '__main__':
                      # st = '2019' + '-' + '11' + '-' + str(i)
                      # print(st)
                      # writer.writerow([st] + [getStock('TSLA', 2019, 11, i)])
-                     obtainTrainingData('TSLA', 2019, 11, i)
+              obtainTrainingData('TSLA', 2019, 11, 19)
 
 
               #obtainTrainingData('TSLA', 2019, 11, i)
