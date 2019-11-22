@@ -106,7 +106,8 @@ if __name__ == '__main__':
                      # st = '2019' + '-' + '11' + '-' + str(i)
                      # print(st)
                      # writer.writerow([st] + [getStock('TSLA', 2019, 11, i)])
-              obtainTrainingData('TSLA', 2019, 11, 19)
+              obtainTrainingData('TSLA', 2019, 11, 20)
+              obtainTrainingData('TSLA', 2019, 11, 21)
 
 
               #obtainTrainingData('TSLA', 2019, 11, i)

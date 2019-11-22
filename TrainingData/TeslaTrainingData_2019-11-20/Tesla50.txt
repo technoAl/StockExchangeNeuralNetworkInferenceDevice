@@ -1,0 +1,349 @@
+Published: Nov 21, 2019 11:19 a.m. ETSemiconductor stocks have a long runway ahead of them as chip demand for electric and autonomous vehicles ramps up BySemiconductor manufacturers that make parts for electric and autonomous vehicles will enjoy healthy growth for at least the next two decades, advisory firm KPMG said in a report.Two of the report’s authors discussed their findings in an interview for this article. They are KPMG Principal and Advisory Semiconductor Practice Leader Scott Jones and KPMG National Automotive Practice Leader Gary Silberg.Click here for the full report, which was published Nov. 20. The shift to electric cars is one of the biggest changes in the auto industry. Tesla 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    TSLA, +0.74%,
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         General Motors 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    GM, -1.73%
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         and other companies are developing autonomous-driving features that require chips and sensors to function. KPMG expects that annual sales for automotive-semiconductor manufacturers to rise from a current estimated $40 billion this year to as much as $200 billion by 2040. That would make for a compound annual growth rate (CAGR) as high as 7.7%. And those numbers may be conservative. KPMG estimates that from 2013 through 2019, the CAGR for automotive chip makers was about 9%.To put those growth rates in perspective, KPMG says the five-year rolling sales CAGR for the entire semiconductor industry is an estimated 4.8% through 2019. “We expect longer-term growth for the semiconductor industry to be near this level,” Scott said. The CAGR from 2001 through 2019 was an estimated 5%. When discussing projections, Silberg said expected growth for the automotive-semiconductor manufacturers was even more profound because global sales of autos themselves aren’t expected to increase. Scott added that “this market will experience higher growth than the semiconductor industry overall.” You can see, below, that semiconductor stocks have greatly outperformed the broader U.S. stock market over the past three and five years. So the prospect of accelerating sales growth as cars incorporate more electronic components to provide new features that people want could make the automotive-semiconductor group even more of a winner.KPMG used well-reasoned assumptions to estimate a relatively high growth rate for this industry over the next 20 years. Today only about 2% of vehicles around the world are battery-powered, and KPMG says “a mass market for EVs [fully electric vehicles] is still a decade or more in the future.” However, the firm cites a majority of analysts who believe that by 2030, more than half of vehicles sold around the world will be electric. KPMG estimates EVs require twice the amount of semiconductor components, by value, as internal combustion engine (ICE) cars.Vehicles, and not only electric ones, will feature more integration of hardware and software systems to support new functions, including “infotainment” and cloud functionality to handle the massive loads of data required for semi- and fully-autonomous vehicles. KPMG listed Intel 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    INTC, +0.55%,
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         NXP Semiconductors 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    NXPI, -0.42%,
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         Nvidia 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    NVDA, -0.47%,
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         Qualcomm 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    QCOM, -0.60%,
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         Texas Instruments 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    TXN, -0.11%
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         and Renesas Electronics 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    RNECF, -2.58%
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         as examples of semiconductor companies “supporting integration,” referencing third-party lists. The first five of those companies make up 35% of the iShares PHLX Semiconductor ETF 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    SOXX, -1.07%.
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         Chip makers will need to adjust to some auto manufacturers designing their own custom semiconductors. Tesla has designed its own chips for use with autonomous driving features. This may be a threat to chip makers, but it also points to how their relationship with auto makers will evolve. There will be many new systems employing a variety of software to provide a broad array of new features.“As Apple 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    AAPL, -0.45%
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         designed its own apps processor, many other players benefitted from the ecosystem around smartphones,” Scott said, emphasizing “broad opportunities” for chip makers even as auto makers take some aspects of design in-house. Silberg pointed out some of the opportunities chip makers will have, even outside the vehicles, including “massive simulation in the cloud” for self-driving systems, with tremendous amounts of resulting data being pushed to the cars. “These apps are not counted, but they are automotive-related,” he said.Investors looking to focus on automotive semiconductor stocks will need to do their own research and keep up with events as the relationship between chip makers and auto manufacturers evolve. But the big players named above make up a large proportion of the overall semiconductor industry, which can be played broadly with the iShares PHLX Semiconductor ETF 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    SOXX, -1.07%.
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         The ETF tracks the PHLX Semiconductor Index 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    SOX, -1.13%
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         by holding all 30 component stocks.Investors have a love-hate relationship with semiconductor stocks. You can see for yourself — look at the comments below this story from last month. The stocks (and companies’ sales) are volatile, and 2019 has been a fascinating ride. Sales are down for many large players because of the disruption caused by the trade conflict between the U.S. and China. But some analysts expect that from 2019’s lower base, sales growth will resume in 2020 even if President Trump fails to land a broad trade deal with China.This three-year chart shows the total return of the SOXX, compared to that of the SPDR S&P 500 ETF 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    SPY, -0.16%,
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                         which tracks the benchmark S&P 500 
+
+                            
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                  
+                                    SPX, -0.16%
+
+                            
+                                  
+      
+      
+      
+      
+      
+      
+      
+                                        :It’s easy to see how painful a ride the semiconductors can be for short-term investors. But patience has paid off. For all of 2018, SOXX was down 6.5%, with a 15% decline in the fourth quarter. But this year through Nov. 15, SOXX is up 53%.Here’s a five-year chart:At any time over the past 10 years, there have been analysts calling semiconductor manufacturers a grossly overvalued group of stocks. Patience has certainly been required. But check out the 10-year return for SOXX against SPY:Combine this historical outperformance with KPMG’s numbers showing slowing sales growth for the group over the past 10 years, and the excellent results for patient investors in semiconductor stocks may seem even more remarkable.With the rapid growth expected for automotive-semiconductor manufacturers, as well as all the other trends driving demand for ever more chips (5G, internet of things, etc.), it seems long-term investors still have a very long runway for outperformance with semiconductor stocks. And you might take the opportunity of narrowing the focus to chip makers that are working with car manufacturers. Don’t miss: Income seekers can reap 4% returns with this specialized bank-investing strategy   Create an email alert for Philip van Doorn’s Deep Dive columns here.  
+                                            Philip van Doorn covers various investment and industry topics.  He has previously worked as a senior analyst at TheStreet.com. He also has experience in community banking and as a credit analyst at the Federal Home Loan Bank of New York.
+                                        Join the conversationCopyright © 2019 MarketWatch, Inc.  All rights reserved.
+            By using this site you agree to the Terms of Service,
+            Privacy Policy, and
+            Cookie Policy.
+          
+          Intraday Data provided by FACTSET and subject to terms of use.
+          Historical and current end-of-day data provided by FACTSET.
+          All quotes are in local exchange time.
+          Real-time last sale data for U.S. stock quotes reflect trades reported through Nasdaq only.
+          Intraday data delayed at least 15 minutes or per exchange requirements.
+        
