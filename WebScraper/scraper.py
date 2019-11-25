@@ -32,10 +32,10 @@ def obtainTrainingData(code, year, month, day):
        print(len(data))
        count = 0
        path = '../'+ 'TrainingData' + '/' + query + 'TrainingData' + '_' +  date +'/'
-       for i in data:
-              tmpDict = dict(i)
+       for i in data:(i)
               fullName = path + query + str(count) + '.txt'
-              os.makedirs(os.path.dirname(fullName),exist_ok=True)
+              os.makedirs(os.p
+              tmpDict = dictath.dirname(fullName),exist_ok=True)
               file = open(fullName, 'w')
               try:
                      page = requests.get(tmpDict['url'])
@@ -61,6 +61,15 @@ def obtainTrainingData(code, year, month, day):
                      writer.writerow([query] + [getStock(code, year, month, day)])
               except:
                      print('no stock data')
+       path = '../' + 'TrainingData' + '/'
+              query = 'Tesla'
+              fullName = path + query + '.csv'
+              os.makedirs(os.path.dirname(fullName), exist_ok=True)
+              with open(fullName, 'w', newline='') as csvfile:
+                     writer = csv.writer(csvfile, delimiter=',')
+                     st = str(year) + '-' + str(month)+ '-' + str(day)
+                     writer.writerow([st] + [getStock(code, year, month, day)])
+
 
 
 def get_symbol(symbol):
