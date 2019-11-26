@@ -1,0 +1,16 @@
+
+
+
+
+Published: {{day}}/{{monthNameShort}}/{{year}} {{hourTwoDigit}}:{{minuteTwoDigit}}
+
+
+
+
+
+
+
+Updated: {{day}}/{{monthNameShort}}/{{year}} {{hourTwoDigit}}:{{minuteTwoDigit}}
+
+
+ ShareEvery week, Epic Games release some sort of update for their mega-popular Fortnite Battle Royale title, but with the v11.11 update scheduled to launch on November 12, there is currently no sign of it on any platforms.Epic Games use the weekly update model to help keep their game fresh, releasing major patches that add new weapons, items, or points-of-interest to the map, while often fixing some frustrating bugs that are affecting the title.These updates generally release every Tuesday, but on November 11, the developers confirmed that they were delaying the patch in a tweet posted on their official Fortnite Status account.On November 11, Epic Games confirmed that they would be releasing the v11.11 update for the game, stating that it would launch on November 12 at 4:00 AM ET (8:00 AM UTC) on all platforms.Just two hours later though, a second tweet went out that confirmed the patch had been postponed, and Fortnite fans would not be waking up on Tuesday morning with a brand-new patch to sink their teeth into.Hi, everyone.We are postponing the release of v11.11.We'll keep you updated regarding when it's planned to release. pic.twitter.com/s18ryjQkWL— Fortnite Status (@FortniteStatus) November 11, 2019Unfortunately, Epic Games have yet to announce when the v11.11 update will officially go live, with no confirmation in their tweet regarding the postponement. The developers add new Missions to the game every Thursday, so it’s likely we will see the update drop on November 14 ahead of the release of new challenges, although it’s possible that they could choose to set it live on Wednesday, November 13.The reason behind the delay remains unknown at this time, but Epic have been forced to postpone updates in the past after finding major bugs or glitches that would seriously affect gameplay, in an attempt to address and fix them before it goes live. This update includes some major changes for Save The World, plus bug fixes for all of the game’s core modes, so it’s likely that an issue was discovered, and the developers are aiming to fix it before releasing it to the world. AdvertisementTrendingAdvertisementPrivacy Settings&copy Copyright 2019 Dexerto Ltd.Developed by Square1.

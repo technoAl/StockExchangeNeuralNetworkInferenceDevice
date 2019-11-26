@@ -1,0 +1,21 @@
+
+					
+						
+						Slashdot is powered by your submissions, so send in your scoop
+					
+				
+Nickname:
+
+
+Password:
+
+
+Nickname:
+
+
+Password:
+
+
+The Fine Print: The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+So, I'm seeing a lot more emojis in source code directly. Okay, I can live with that. We had graphics characters before.What I don't get is, why does Apple get to decide what the Unicode code points are and the corresponding glyphs?Wasn't that settled? You know, by the Unicode Consortium as a whole, rathery than Apple unilaterally?In strings is what I've seen, so I'm not really nonplussed by that.I don't actually think there's anything preventing you from having them in variable names in the current crop of dynamic scripting languages (where I've noticed it), except perhaps it being asinine. It's a side effect of internationalization, so that's fine, but people probably should stick to actual words in whatever language they speak.OTOH, I don't speak a language that uses ideograms, so maybe this is actually saner for some cultures.Wasn't that settled? You know, by the Unicode Consortium as a whole, rathery than Apple unilaterally?They are. Android 10 included all the same emojis Apple just added, but Android 10 was released nearly two months ago. (Yes, make your jokes about Android and upgrades here, no one cares.) Windows 10's latest version also contains a number of the new emojis, although it's missing the gender neutral stuff. (The "gender neutral" emojis are just the Unicode Consortium clarifying that "no gender specified" doesn't mean "female" like Apple had done.)There's nothing really new or special in iOS 13, it's basically Even more with 'gender options'! Now the pedophiles can really impress the preschool audience they are trying to reach.Really, do grownups (people with enough income to buy an Apple product) ever use these things?Yes. 90% of my friends and I use emojis on a regular basis. On twitter and in texts. My mother does, too. So that spans an age range of people from about 20 years old to almost 70. I'm in my 40s. My one friend that doesn't use emoji doesn't use emoticons of any kind, and I find communication with her slightly harder, because it's always hard to tell if she's unhappy or not.I use the default yellowish skin tone because I'm half Chinese. I have a friend who is ethnically East Indian, and he's changed his to b So, 24bit audio support anytime soon? Can't have that, but 8k video in the future sure!More bits In aptX does not mean higher quality. It has a higher bitrate because it's a first generation lossy compression codec and *requires* a high bitrate to produce the same quality. Being a first generation codec also means its computational requirements are low, but more data has to be transmitted, so power savings are questionable vs SBC or AAC.Ultimately, AAC over Bluetooth (which has roughly the same device support, though far less advertising than aptX) provides better sound, and is fully supporte I don't care. I demand 24-bit audio with my cheap earbuds. The 24 bit-ness creates a spiritual harmony in tune with the vibration mana that music provides. This is further enhanced with 24 crystals that I place all around me while I meditate in yoga transcendence. Eventually, I can walk all 24 levels of the astral plane. 1 bit per plane.See how that shit works? It's Apple. Where's YOUR "courage"?ability to brick HomePodsNew 13.2 Update Bricking Some HomePods [macrumors.com]Another quality release from Apple.Just asking. I mean, emojis, woohoo. At least emojies don't have bugs. Maybe.Apple still supports older iDevices (e.g., iPhone 6+ and iPad air 1G). The two (lat/new)est generations of AppleTV got newer tvOS v13.2. https://support.apple.com/en-u... [apple.com] doesn't list their security details yet.Apple pulled the (buggy) iOS 13.2 update.There may be more comments in this discussion. Without JavaScript enabled, you might want to turn on Classic Discussion System in your preferences instead.FCC Moves To Cut Off Huawei, ZTE From SubsidiesAdobe Gets US License To Operate In Venezuela Despite SanctionsThe optimum committee has no members.
+		-- Norman Augustine

@@ -1,0 +1,55 @@
+Entrepreneurs, founders, investors and all startup fans in between — take heed. The days for saving serious dough on tickets to Disrupt Berlin 2019 are seriously numbered. Right now, early-bird pricing starts at €445 + VAT and, depending on the type of pass you purchase, you can save up to €500.But this bird takes flight for parts unknown on 8 November at 11:59 p.m. (CEST). Get serious, beat the deadline and save. Buy your early-bird pass to Disrupt Berlin.Now that you have your pass, you can start planning how to take in as much of Disrupt Berlin as possible. Two programming-packed days will keep you engaged and on the move — check out the agenda to find out all the knowledge that will be dropped. They’ve done the work, reaped the rewards and they’ll be on hand to share their hard-won experiences and insight on crucial topics facing startups.Speaking of crucial topics, Brexit is the 800-pound gorilla in the room. We’re thrilled to have three experts take the Main Stage to share their up-close-and-personal experiences. Don’t miss hearing from Bindi Karia, an investor with deep ties to Europe; Glenn Shoosmith, a founder who’s expanding his startup internationally; and Volker Hirsch, a VC born in Germany but currently living in the U.K. All three will examine the Brexit landscape and discuss how to make the right decisions in the face of chaotic obstacles.Be sure to experience the glory that is Startup Battlefield. Cheer on 15-20 outstanding startups as they pitch and demo their creation to a discerning panel of veteran VCs and technologists. Who will claim the Disrupt cup and win the $50,000 prize? Be in the room where future unicorns are born.One of the best ways to save time at Disrupt — and connect with the people who share your interests and goals — is to network using CrunchMatch. Our free business match-making service takes the hassle out of finding and meeting with the right people.And one of the best places to connect is Startup Alley, our exhibition floor. That’s where you’ll find hundreds of early-stage startups displaying their tech and talent. Whether you’re a founder, investor, engineer or startupper of a different stripe, you’ll find potential customers, funders, collaborators — you name it. Startup Alley is a networker’s paradise.There’s plenty more we could mention in detail: The Hackathon, Q&A Sessions, workshops. Bottom line? You’ll find nothing but opportunity at Disrupt Berlin 2019 on 11-12 December. But it’s time to get serious. Buy your early-bird pass before 8 November at 11:59 p.m. (CEST), and all that opportunity will cost you a whole lot less.Is your company interested in sponsoring or exhibiting at Disrupt Berlin 2019? Contact our sponsorship sales team by filling out this form. 
+
+
+		( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527'
+						}, "https:\/\/tcprotectedembed.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'tcprotectedembed.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )();
+	

@@ -1,0 +1,57 @@
+When you enter a date that's formatted with slashes, Excel will recognize it as a date. For example, Excel will automatically choose the date format for a cell that contains 11/11/19. You can set Excel to display dates in a variety of ways, no matter how you type in the data. Here's how to find and change date formats in Excel on a Mac or PC.We're using a spreadsheet that includes dates of hire for employees of a fictitious company, to show different ways to format dates in Excel.1. Highlight the date cells you want to format.2. In the "Home" menu ribbon, there is a field in the middle with a drop-down menu for different cell formats. It should say "Date" by default. Click the arrow to open the drop-down menu.
+
+
+
+
+
+
+ 
+
+
+        The formatting drop-down menu is located in the "Home" section of the toolbar.
+      
+Laura McCamy/Business Insider
+
+3. The menu has two formats for dates: short date and long date. 
+
+
+
+
+
+
+ 
+
+
+        There are two preset options for formatting dates.
+      
+Laura McCamy/Business Insider
+
+
+
+
+
+
+
+
+ 
+
+
+        The long date option will write out dates for you.
+      
+Laura McCamy/Business Insider
+
+4. Excel offers many other date format choices. In the cell format menu, click on "More Number Formats…" at the bottom.5. In the window that pops up, make sure "Date" is chosen under the "Category" sidebar. You can scroll down the list of date formats in the box to the right. Choose from formats that put the day before the month, drop the year, and more. We chose the last option and the data, which was entered with two-digit years, was converted to display four-digit years.
+
+
+
+
+
+
+ 
+
+
+        You can edit your dates in many different ways.
+      
+Laura McCamy/Business Insider
+
+Pro tip: Never change the format of a cell with a date to General or Text. Excel will turn your date into an unrelated number. For example, 3/3/2017 becomes 42797 when it's not formatted as a date.Insider receives a commission when you buy through our links.

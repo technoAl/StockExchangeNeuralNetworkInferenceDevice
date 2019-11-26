@@ -17,9 +17,9 @@ def obtainTrainingData(code, year, month, day):
               print('weekend')
               return
        url = makeURL(date, query, 100)
-       response = requests.get(url)
-       data = response.json()
-       data = data['articles']
+       data = getData(url)
+       if data == None:
+              return
        count = 0
        path = '../'+ 'TrainingData' + '/' + query + 'TrainingData' + '_' +  date +'/'
        for i in data:
@@ -46,9 +46,19 @@ def obtainTrainingData(code, year, month, day):
 
        fullName = path + query + '.csv'
        path = '../' + 'TrainingData' + '/'
-       appendStock(fullName, path)
+       appendStock(fullName, path, code, year, month, day, query)
 
-def appendStock(fullName, path):
+def getData(url):
+       try:
+              response = requests.get(url)
+              data = response.json()
+              data = data['articles']
+              return data
+       except:
+              print('unfortunate failure')
+              return
+
+def appendStock(fullName, path, code, year, month, day, query):
        os.makedirs(os.path.dirname(fullName), exist_ok=True)
        with open(fullName, 'w', newline='') as csvfile:
               writer = csv.writer(csvfile, delimiter=',')
@@ -56,6 +66,7 @@ def appendStock(fullName, path):
                      writer.writerow([query] + [getStock(code, year, month, day)])
               except:
                      print('no stock data')
+       fullName = path + query + '.csv'
        os.makedirs(os.path.dirname(fullName), exist_ok=True)
        with open(fullName, 'w', newline='') as csvfile:
               writer = csv.writer(csvfile, delimiter=',')
@@ -65,13 +76,12 @@ def appendStock(fullName, path):
               except:
                      print('no stock data')
 
-
 def makeURL(query, date, pageSize):
        return ('https://newsapi.org/v2/everything?'
               'q=' + query + '&'
               'from=' + date + '&'
               'sortBy=popularity&'
-              'pageSize=' + pageSize + '&'
+              'pageSize=' + str(pageSize) + '&'
               'apiKey=13bd628fa8b548738d3b113d9442574e&'
               'language=en')
 
@@ -102,13 +112,6 @@ def getStock(code, year, month, day):
 
 if __name__ == '__main__':
        for i in range(26, 32):
-               obtainTrainingData('FB', 2019, 10, i)
+               obtainTrainingData('MSFT', 2019, 10, i)
        for i in range(1, 24):
-              obtainTrainingData('FB', 2019, 11, i)
-
-
-
-              #obtainTrainingData('TSLA', 2019, 11, i)
-
-
-
+              obtainTrainingData('MSFT', 2019, 11, i)

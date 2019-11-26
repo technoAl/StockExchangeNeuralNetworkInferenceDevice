@@ -1,0 +1,55 @@
+We’re one month out from Disrupt Berlin (11-12 December), and no matter which part of the startup ecosystem you inhabit, Disrupt Berlin is a huge opportunity to learn, network and gain inspiration.Consider these five reasons why you should buy a pass to Disrupt Berlin and join thousands of founders, investors and technologists for two potential-packed days that could change the trajectory of your business.As hard as founders work, it takes a network to make startup dreams come true. Networking at Disrupt Berlin puts you in touch with people who can help you move toward your goal. Connect with investors, developers, engineers, founders, marketers and more. Sizing up investors? Got questions about manufacturing or product development?You’ll find the right people a lot faster and more efficiently thanks to CrunchMatch, the free business match-making platform we’re making available to all attendees. When CrunchMatch goes live (before the conference starts), we’ll email to all registered attendees instructions for accessing the platform.You create a profile outlining your role and the type of connections you want to make. CrunchMatch suggests connections based on similar goals and then — subject to your approval — the platform handles all the scheduling details. It’s simple and it connects you with the people you really want to meet. And there will be nearly 3,000 from which to choose.TechCrunch’s editors have spent months picking speakers for the Disrupt stage who reflect the current trends and conversations in the startup ecosystem. The editors’ interviews focus on teasing out the information and insights everyone wants to hear. And if you have questions of your own, many of the speakers will be available for audience questions at a follow-up Q&A.New to Disrupt Berlin this year, The Extra Crunch Stage features experienced operators giving practical, real-world advice on how to launch, run and grow a successful startup, including the chance for you to ask our experts your questions. We launched this stage earlier this year in San Francisco, and the ”how to” programming was a huge hit. Curious about what it takes to raise a Series A? Are you all about SaaS? Need help with your PR and branding strategy? Or thinking of scaling your startup globally? We have you covered.And there’s so much more programming waiting for you across several stages — plan your time and check out the Disrupt Berlin agenda.There’s no better startup launch pad than our world-renowned Startup Battlefield. Since 2007, this global pitch competition has launched 857 companies — like Vurb, Dropbox, Mint and Yammer. They’ve collectively raised $8.9 billion and produced 113 exits. Who will join their ranks?Be in the room to watch this year’s outstanding cohort go head-to-head in a fierce battle to win the judges’ hearts and minds. Oh, right — they’ll also win the Disrupt Cup, intense media and investor love and a $50,000 equity-free cash infusion. It all goes down live on the Main Stage, and it’s streamed live to a global audience.Opportunity is the name of the game in Startup Alley — the expo floor and heartbeat of Disrupt Berlin. It’s where you’ll find hundreds of early-stage startups showcasing the latest products, platforms and services across the tech spectrum. Looking for potential customers, collaborators, mentors or just curious about new technology? Head to Startup Alley, because you never know who you’ll meet.Here’s another great reason to go — you’ll find our TC Top Picks. TechCrunch editors hand-picked up to five stellar startups to represent the best of the following tech categories: AI/Machine Learning, Biotech/Healthtech, Blockchain, Fintech, Mobility, Privacy/Security, Retail/E-commerce, Robotics/IoT/Hardware, CRM/Enterprise and Education.You’re focused on making your startup dreams come true. Investing two days at Disrupt to meet new, yet like-minded people can shake things up in the best possible way. Connect with your community, refresh your thinking, share ideas and hear new perspectives. And maybe meet a future partner, investor or employee. Go home inspired to dig deeper and work harder.Well, there you have it. Five awesome reasons to hop off the fence, buy a pass to Disrupt Berlin and join us on 11-12 December.Is your company interested in sponsoring or exhibiting at Disrupt Berlin 2019? Contact our sponsorship sales team by filling out this form. 
+
+
+		( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527'
+						}, "https:\/\/tcprotectedembed.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'tcprotectedembed.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )();
+	

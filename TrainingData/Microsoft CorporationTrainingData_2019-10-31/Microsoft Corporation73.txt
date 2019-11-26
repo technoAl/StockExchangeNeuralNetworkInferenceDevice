@@ -1,0 +1,131 @@
+
+
+
+
+
+
+
+
+    if (!window.adsDisableFileless === undefined) {
+      window.adsDisableFileless && window.adsDisableFileless('text');
+    }
+    window.adSetAdURL && window.adSetAdURL('/_uac/adpage.html');
+    window.adSetOthAT && window.adSetOthAT('kvblogname=news;kvcategory=news;kvpub=aol;kvpubmarket=us;kvpubsection=news;kvcmsid=bsd:23849082;kveditags=impeachment;kventryid=23849082;kvblogger=william-laws;');
+    window.adSetMOAT && window.adSetMOAT('1');
+
+    try {
+      // Make sure the atwUAC object exists before putting your function on it
+      window.atwUAC = window.atwUAC || {};
+      atwUAC.adLoaded = function (n, obj) {
+        var isMobile = 0;
+        if (obj.goldenFormat == "MobileMoments" && isMobile) {
+          var divID = "#" + obj.divName
+          if ($(divID).length) {
+            $(divID).closest('.m-ad').addClass('m-ad--mobile_moment')
+          }
+        }
+      }
+    }
+    catch (e) {}
+  
+
+
+
+  
+  var rapidConfig = {
+    spaceid: 1197803369,
+    nol: true,
+    viewability: true,
+    perf_navigationtime: 2,
+    test_id: "",
+    keys: {"pl2":"amp-bon-article","p_sec":"AOL News","p_subsec":"politics","ver":"blogsmith","st_sec":"us.aolcomnews","pt":"content","pct":"story","paid":"aol_com_127=bsd:23849082","pstaid":"65ccfbc0-8565-3944-ac33-b1bfe1fdf021"},
+          webworker_file : "https://s.blogsmithmedia.com/www.aol.com/assets-h917489f21d0cdbc107233339d0ec43f2/js/lib/rapidworker-1.2.js?h=2303980e4d12d008432cf7ba5696611d"
+      };
+
+  
+  
+    
+      var myRapidInstance = new YAHOO.i13n.Rapid(rapidConfig);
+  
+
+
+  var yaftConf = {
+		modules: ['aol_module'],
+		maxWaitTime: 3000
+	};
+
+
+  window.Taboolalocale = "usa";
+  function getDeviceState() {
+    var a = document.getElementById("state-indicator");
+    var b;
+    if (a.currentStyle) {
+        b = a.currentStyle.zIndex;
+    } else {
+        b = parseInt(window.getComputedStyle(a).getPropertyValue("z-index"), 10)
+    }
+
+    return b
+  };
+
+  function getMn(sizeMnArray, magicNumber, sizeArray, divId, width, height, des) {
+    var e = getDeviceState();
+    var c = {};
+    c.mns = sizeMnArray;
+    c.mn = magicNumber;
+    c.sps = sizeArray;
+    c.div = divId;
+    c.w = width;
+    c.h = height;
+    c.des = des; // always true?
+    if (sizeArray.indexOf(e) === -1) {
+      magicNumber = null
+    }
+    if (sizeMnArray !== null && sizeMnArray[e] !== null && typeof(sizeMnArray[e]) !== "undefined" && sizeMnArray[e] !== "") {
+      magicNumber = sizeMnArray[e]
+    }
+    c.cur = magicNumber;
+    // hmpg_ads.push(c);
+    // AOL.hmpg_ads.push(c);
+    return magicNumber
+  };
+
+  var hmpg_ads = new Array();
+  if (typeof AOL === "undefined") {
+      AOL = {};
+  }
+  AOL.getDeviceState = getDeviceState;
+  // AOL.hmpg_ads = hmpg_ads;
+  AOL.responsiveEnabled = true; // required by dynamic-lede.js, isAutoRotateDisabled()
+  AOL.isTablet = false; // required by dynamic-lede.js, isAutoRotateDisabled()
+  AOL.isWurflMobile = false; // required by dynamic-lede.js, isAutoRotateDisabled()
+  AOL.isMobileSwipe = false; // required by dynamic-lede.js, isAutoRotateDisabled()
+  AOL.pageType = "article"; // required by dynamic-lede.js, cstrack()
+  AOL.cobrand = "amp-bon-article";
+  AOL.collapseModuleFeatureEnabled = "";
+  AOL.enableMobileSearchFocus = false;
+  AOL.articleOverlayActive = false;
+  AOL.paid = false;
+
+
+     window._newsroom = window._newsroom || [];
+
+     !function (e, f, u) {
+         e.async = 1;
+         e.src = u;
+         f.parentNode.insertBefore(e, f);
+     }(document.createElement('script'),
+             document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/aol-aol/newsroom.js');
+ 
+
+    window._taboola=window._taboola||[],_taboola.push({article:"auto"});
+
+          !function (e, f, u) { e.async = 1; e.src = u; f.parentNode.insertBefore(e, f); }(document.createElement('script'),document.getElementsByTagName('script')[0],'//cdn.taboola.com/libtrc/aol-aol/loader.js');
+      
+Follow President Donald Trump as he shapes America’s futureGo nowTop Democrats at the deposition of Lt. Col. Alexander Vindman, the top Ukraine expert on the National Security Council, said his testimony Tuesday was “extremely disturbing” and praised him for appearing despite attacks from the White House.Acting House Oversight Chairwoman Carolyn Maloney, D-N.Y, told NBC News she found Vindman’s prepared remarks “extremely, extremely, extremely disturbing,” as she left the deposition Tuesday morning. Maloney refused to answer any other questions about Vindman’s testimony.Vindman, appearing voluntarily under congressional subpoena, was set to tell members of Congress conducting an impeachment inquiry of President Donald Trump that he was on the phone call between Trump and Ukraine’s leader in which Trump asked for an investigation into the Bidens — and that he raised concerns about it.Vindman considered Trump’s request that Ukraine investigate his political rivals so damaging to American national security that he reported it to a superior, according to his opening statement obtained by NBC News.According to his prepared remarks, Vindman, the National Security Council director for European affairs, will tell members of the committees investigating Trump that he was on the July 25 call between Trump and Ukrainian President Volodymyr Zelenskiy, making him the first witness to the call to appear before congressional investigators in the Democrats’ impeachment inquiry."I was concerned by the call," Vindman's opening statement says. "I did not think it was proper to demand that a foreign government investigate a U.S. citizen, and I was worried about the implications for the U.S. government’s support of Ukraine.""I realized that if Ukraine pursued an investigation into the Bidens and Burisma, it would likely be interpreted as a partisan play which would undoubtedly result in Ukraine losing the bipartisan support it has thus far maintained," his statement adds. "This would all undermine U.S. national security. Following the call, I again reported my concerns to NSC’s lead counsel."The call is at the center of the impeachment inquiry against Trump launched by House Democrats. Critics say that Trump’s alleged pressure on the Ukrainians amounted to an abuse of power designed to help him in the 2020 presidential election.Vindman served multiple overseas tours as an infantry officer and received the Purple Heart after being wounded by an improvised explosive device while in Iraq. He joined the National Security Council in July of 2018.
+The first witnesses who were on the July 25th phone call that’s at the center of the impeachment inquiry to publicly testify are Lt. Col. Alexander Vindman, an Army officer and national security council staffer, and Jennifer Williams, a career foreign service officer stationed in the Vice President’s office.Appearing in uniform, Vindman expressed to lawmakers his alarm at what he described as a concerted effort by Trump’s allies to bend U.S. policy in Ukraine to personally benefit Trump.(SOUNDBITE) (ENGLISH) LT COL. ALEXANDER VINDMAN, SAYING: "I was concerned by the call, what I heard was improper, and I reported my concerns to Mr. Eisenberg. It is improper for the President of the United States to demand a foreign government investigate a U.S. citizen and political opponent. It was also clear that if Ukraine pursued an investigation into the 2016 election, the Bidens, and Burisma, it would be interpreted as a partisan play. This would undoubtedly result in Ukraine losing bipartisan support, undermine U.S. national security, and advance Russia’s strategic objectives in the region."Williams, a State Department official assigned to Mike Pence's team, testified that she found the call unusual. (SOUNDBITE) (ENGLISH) AIDE TO VICE PRESIDENT MIKE PENCE, JENNIFER WILLIAMS, SAYING: "I found the July 25th phone call unusual because, in contrast to other presidential calls I had observed, it involved discussion of what appeared to be a domestic political matter."Vindman also described a meeting between Ukrainian officials and US ambassador to the EU, Gordon Sondland and national security advisor John Bolton.(SOUNDBITE) (ENGLISH) LT COL. ALEXANDER VINDMAN, SAYING: "We fully anticipated the Ukrainians would raise the issue of a meeting between the two presidents. Ambassador Bolton cut the meeting short when Ambassador Sondland started to speak about the requirement that Ukraine deliver specific investigations in order to secure the meeting with President Trump. Following this meeting, there was a short debriefing during which Ambassador Sondland emphasized the importance of Ukraine delivering the investigations into the 2016 election, the Bidens, and Burisma. I stated to Ambassador Sondland that this was inappropriate and had nothing to do with national security."Vindman, a Ukrainian-born American citizen and decorated Iraq war veteran, has been the subject of attacks by Trump’s allies, and called a Never Trumper by the president. On Tuesday, Vindman added a personal note at the end of his opening statement. (SOUNDBITE) (ENGLISH) LT. COL. ALEXANDER VINDMAN, SAYING: "Dad, my sitting here today, in the US Capitol talking to our elected officials is proof that you made the right decision forty years ago to leave the Soviet Union and come here to United State of America in search of a better life for our family. Do not worry, I will be fine for telling the truth."When questions shifted to the Republicans, ranking Republican Devin Nunes used his time to find out the identity of the whistleblower whose complaint sparked the inquiry than defending the president's alleged misdeeds.(SOUNDBITE) (ENGLISH) REP. DEVIN NUNES, SAYING:"Lt. Col. Vindman did you discuss the July 25th phone call with anyone outside the White House on July 25th or the 26th, and if so, with whom?"(SOUNDBITE) (ENGLISH) LT COL. ALEXANDER VINDMAN, SAYING: "Yes, I did….an individual in the intelligence community." (SOUNDBITE) (ENGLISH) REP. DEVIN NUNES, SAYING:"As you know…the intelligence community has 17 different agencies. What agency was this individual from?"(SOUNDBITE) (ENGLISH) REP. ADAM SCHIFF, SAYING:: “If I could interject here. We don’t want to use these proceedings…We need to protect the whistleblower. I want to make sure there is no effort to out the whistleblower throughout these proceedings.”Nunes also pushed an unfounded theory that Ukraine, not Russia, interfered in the 2016 election. (SOUNDBITE) (ENGLISH) REP. DEVIN NUNES, SAYING:“In these depositions and hearings Republicans have cited numerous instances of Ukraine meddling in the 2016 elections to oppose the Trump campaign."Under questioning from the Democrats’ side, Vindman shot that down. (SOUNDBITE) (ENGLISH) DEMOCRATIC COUNSEL DANIEL GOLDMAN, SAYING:“Are you also aware that Vladimir Putin had promoted this theory of Ukrainian interference in the 2016 election?”(SOUNDBITE) (ENGLISH) LT. COL. ALEXANDER VINDMAN, SAYING: “I am well aware of that fact.”(SOUNDBITE) (ENGLISH) DEMOCRATIC COUNSEL DANIEL GOLDMAN, SAYING:“And ultimately which country did the U.S. intelligence services determine to have interfered in the 2016?”(SOUNDBITE) (ENGLISH) LT. COL. ALEXANDER VINDMAN, SAYING: “It’s the consensus of the entire intelligence community that the Russians interfered in U.S. elections in 2016.” More witnesses are expected to testify throughout the week.See GalleryVindman will also tell Congress that he is not the unnamed whistleblower whose complaint sparked what would become the impeachment inquiry now underway, according to the statement, and that he does not know who the whistleblower is.In addition, he will say that he twice reported his concerns to the National Security Council’s lead attorney, John Eisenberg, once after a July 10 meeting about comments made by U.S. ambassador to the European Union Gordon Sondland, and also after Trump's phone call with Zelenskiy. His statement says he never had any direct communications with Trump.After details of Vindman’s opening statement emerged Monday night, Trump, as well as Republican allies of the president, attacked the former soldier.“Supposedly, according to the Corrupt Media, the Ukraine call ‘concerned’ today’s Never Trumper witness," Trump tweeted. "Was he on the same call that I was? Can’t be possible! Please ask him to read the Transcript of the call. Witch Hunt!”Supposedly, according to the Corrupt Media, the Ukraine call “concerned” today’s Never Trumper witness. Was he on the same call that I was? Can’t be possible! Please ask him to read the Transcript of the call. Witch Hunt!On Monday night, Fox News host Laura Ingraham and John Yoo, a former official in the George W. Bush Justice Department, discussed on Ingraham’s show whether Vindman, who was born in the former Soviet Union and fled with his family to the U.S. as a child, could have effectively conducted espionage because, according to The New York Times, Ukraine officials sought his advice in dealing with Trump personal attorney Rudy Giuliani's efforts regarding Ukraine.Rep. Ami Bera, D-Calif., who as a member of the House Foreign Affairs Committee was present for Vindman’s deposition, defended Vindman in an interview on MSNBC Tuesday, saying he “is someone without impunity.”“For any of my colleagues to try to smear his reputation — that’s just not fair,” he said.Some Republicans also defended Vindman.Rep. Liz. Cheney, R-Wyo., said at a press conference with GOP leadership Tuesday morning that the attacks on Vindman were “shameful.”
+More from NBC News:
+Ex-Trump national security aide Kupperman a no-show for impeachment testimony
+Poll: Americans split along party lines on impeachment
+Senators launch bipartisan climate change initiative
+© 2019  Verizon Media. All rights reserved.Get breaking news and big stories on your desktop.You can always change your mind later.If you change your mind, here's how to allow notifications:If you’d like to allow notifications, please go into your browser’s Website or Privacy settings and set the permissions for AOL.com to “Allow.”
