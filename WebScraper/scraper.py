@@ -12,30 +12,20 @@ import csv
 
 def obtainTrainingData(code, year, month, day):
        date = str(year) + '-' + str(month) + '-' + str(day)
-       query = get_symbol(code).split(',')[0]
-       today = datetime(year, month, day)
-       print(today.weekday())
-       if today.weekday() >= 5:
+       query = getQuery(code)
+       if not isWeekday(datetime(year, month, day)):
+              print('weekend')
               return
-       url = ('https://newsapi.org/v2/everything?'
-              'q=' + query + '&'
-              'from=' + date + '&'
-              'sortBy=popularity&'
-              'pageSize=100&'
-              'apiKey=13bd628fa8b548738d3b113d9442574e&'
-              'language=en')
+       url = makeURL(date, query, 100)
        response = requests.get(url)
        data = response.json()
-       #print(data)
-       print(data['totalResults'])
        data = data['articles']
-       print(len(data))
        count = 0
        path = '../'+ 'TrainingData' + '/' + query + 'TrainingData' + '_' +  date +'/'
        for i in data:
               tmpDict = dict(i)
               fullName = path + query + str(count) + '.txt'
-              os.makedirs(os.path.dirname(fullName),exist_ok=True)
+              os.makedirs(os.path.dirname(fullName), exist_ok=True)
               file = open(fullName, 'w')
               try:
                      page = requests.get(tmpDict['url'])
@@ -53,24 +43,46 @@ def obtainTrainingData(code, year, month, day):
                      print("unfortunate failure")
               file.close()
               count+=1
+
        fullName = path + query + '.csv'
+       path = '../' + 'TrainingData' + '/'
+       appendStock(fullName, path)
+
+def appendStock(fullName, path):
        os.makedirs(os.path.dirname(fullName), exist_ok=True)
-       with open (fullName, 'w', newline='') as csvfile:
-              writer = csv.writer(csvfile , delimiter=',')
+       with open(fullName, 'w', newline='') as csvfile:
+              writer = csv.writer(csvfile, delimiter=',')
               try:
                      writer.writerow([query] + [getStock(code, year, month, day)])
               except:
                      print('no stock data')
-       path = '../' + 'TrainingData' + '/'
-              query = 'Tesla'
-              fullName = path + query + '.csv'
-              os.makedirs(os.path.dirname(fullName), exist_ok=True)
-              with open(fullName, 'w', newline='') as csvfile:
-                     writer = csv.writer(csvfile, delimiter=',')
-                     st = str(year) + '-' + str(month)+ '-' + str(day)
+       os.makedirs(os.path.dirname(fullName), exist_ok=True)
+       with open(fullName, 'w', newline='') as csvfile:
+              writer = csv.writer(csvfile, delimiter=',')
+              st = str(year) + '-' + str(month) + '-' + str(day)
+              try:
                      writer.writerow([st] + [getStock(code, year, month, day)])
+              except:
+                     print('no stock data')
 
 
+def makeURL(query, date, pageSize):
+       return ('https://newsapi.org/v2/everything?'
+              'q=' + query + '&'
+              'from=' + date + '&'
+              'sortBy=popularity&'
+              'pageSize=' + pageSize + '&'
+              'apiKey=13bd628fa8b548738d3b113d9442574e&'
+              'language=en')
+
+def getQuery(code):
+       return get_symbol(code).split(',')[0]
+
+def isWeekday(today):
+       if today.weekday() >= 5:
+              return False
+       else:
+              return True
 
 def get_symbol(symbol):
        url = "http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={}&region=1&lang=en".format(symbol)
@@ -89,34 +101,11 @@ def getStock(code, year, month, day):
        return dict['close'] - dict['open']
 
 if __name__ == '__main__':
-       path = '../' + 'TrainingData' + '/'
-       query = 'Tesla'
-       fullName = path + query + '.csv'
-       os.makedirs(os.path.dirname(fullName), exist_ok=True)
-       with open(fullName, 'w', newline='') as csvfile:
-              writer = csv.writer(csvfile, delimiter=',')
+       for i in range(26, 32):
+               obtainTrainingData('FB', 2019, 10, i)
+       for i in range(1, 24):
+              obtainTrainingData('FB', 2019, 11, i)
 
-
-              # for i in range(18, 32):
-              #        # today = datetime(2019, 10, i)
-              #        # print(today.weekday())
-              #        # if today.weekday() >= 5:
-              #        #        continue
-              #        # print('10' + '-' + str(i) + '\n')
-              #        # st = '2019' + '-' + '10' + '-' + str(i)
-              #        # writer.writerow([st] + [getStock('TSLA', 2019, 10, i)])
-              #         obtainTrainingData('TSLA', 2019, 10, i)
-              # for i in range(1, 19):
-                     # today = datetime(2019, 11, i)
-                     # print(today.weekday())
-                     # if today.weekday() >= 5:
-                     #        continue
-                     # print('11' + '-' + str(i) + '\n')
-                     # st = '2019' + '-' + '11' + '-' + str(i)
-                     # print(st)
-                     # writer.writerow([st] + [getStock('TSLA', 2019, 11, i)])
-              obtainTrainingData('TSLA', 2019, 11, 20)
-              obtainTrainingData('TSLA', 2019, 11, 21)
 
 
               #obtainTrainingData('TSLA', 2019, 11, i)

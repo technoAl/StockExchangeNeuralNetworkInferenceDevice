@@ -1,0 +1,68 @@
+Telco also wants repeat of 2016 ASX 100 cyber check survey.
+                                   By Chris Duckett
+            
+                    
+        
+                                        |            November 26, 2019 -- 05:03 GMT (21:03 PST)
+        
+                                                                                    | Topic: Security
+Australia's incumbent telco Telstra is calling upon the government to take the pulse of Australia's cyber posture, by way of a national stocktake and cyber check survey. In a submission to the Department of Home Affairs review of the national 2020 Cyber Security Strategy, Telstra said the Australian Cyber Security Centre (ACSC) should know the current state of cyber throughout the economy. "We believe a ground-up 'national stocktake' is required, using a more comprehensive range of data points," Telstra said. "This stocktake should cover end users, small businesses, and large companies, and where possible include data from existing law enforcement and government reporting, such as ScamWatch and the ACSC's recent Small Business Survey." The telco added that industry should provide advice on how to contribute "anonymised and meaningful data", since businesses have the "most coherent and detailed view" of threats they deal with.The telco added that the ASX 100 Cyber Health Check Report released in April 2017 be repeated, and proposed the survey be split between strategic questions to boards, and technical questions to CISOs and cyber teams. The sharing of threat information within Australia needed improvement, Telstra said. "Challenges continue to face operational information sharing in Australia, due to a reliance on individual relationship-based sharing rather than more resilient operationalised arrangements," it wrote. The telco proposed a number of recommendations to improve communication within industry and from government to industry, which included the use of Slack groups curated by ACSC. At the most recent Senate Estimates, the ACSC was unable to answer the question on whether the Slack channel it was using for threat indicators was encrypted. As of November, the question remains officially unanswered. As part of the Cyber Security Strategy review, an industry advisory panel has been formed. Chaired by Telstra CEO Andy Penn, the panel also includes chair of Vocus Group Bob Mansfield, former Telstra CFO and now Tesla chair Robyn Denholm, CEO of Northrop Grumman Australia Chris Deeble, and NBN chief security officer Darren Kane. Home Affairs Minister Peter Dutton said Penn was "incredibly well qualified" to chair the group and has a "deep knowledge of the cyber risks". Penn's background is in accounting. "I want to thank the Australian community for their enthusiastic participation in the consultation so far," Dutton said. "More than 1,000 people attended a consultation event in person, and my Department received more than 200 submissions with more than 1,300 pages of written feedback. The government will carefully consider all of these views". Other submissions have said the government should reinstate the position of Minister for Cybersecurity, and for clarification on the cyber roles various parts of government are responsible for. Renewed calls for dedicated Australian cyber minister and cyber leadershipAustralia's cybersecurity is too important to struggle along with part-time attention, say submitters to the Cyber Security Strategy 2020. The public no longer trusts the government's computer skills.Australia releases draft IoT cybersecurity code of practiceThe government wants the tech industry to secure the Internet of Things through a voluntary code, and the states and territories to join it in 'an aligned and harmonious approach'.Parliament House hack report reveals poor password practicesIt took eight days to flush February's cyber attackers from Australia's parliamentary network. A procedure to authenticate staff asking to reset their boss' passwords only came another week later.Cyber Security Strategy 2020: Civil society experts slam 'national security' agendaThe goal of an 'open and free internet' has been dropped from Australia's proposed national cybersecurity strategy. Job done, apparently.'No such thing' as cyber warfare: Australia's head of cyber warfareWarfare is warfare, espionage is internationally normal, and cyber is just one of a suite of potential capabilities for a military response, says Major General Marcus Thompson.
+                                   By Chris Duckett
+            
+                    
+        
+                                        |            November 26, 2019 -- 05:03 GMT (21:03 PST)
+        
+                                                                                    | Topic: Security
+NetworkingNBN pricing review adds new plans, CVC pools, and TCP/IP header overheadNetworkingiiNet lost a copper line, an NBN customer, and must now undergo a systems auditSecurityThird party minimum cyber compliance for My Health Record skipped: Audit Office5GHuawei and ZTE barred from FCC Universal Service Fund
+Microsoft says new Dexphot malware infected more than 80,000 computers
+
+									
+																			Dexphot's main purpose was to silently mine cryptocurrency and generate revenue for the attackers.
+																	
+Best tech gadgets of 2019
+
+									
+																			AirPods Pro. Sonos Move. Galaxy Note 10. See what else made our list for best tech gadgets of the past year.
+																	
+State police: We've been testing Spot robot dogs for use in dangerous situations
+
+									
+																			Massachusetts State Police have been trying out Boston Dynamics' Spot for the past three months.
+																	
+Firefox-maker Mozilla details internet security and privacy projects
+
+									
+																			Mozilla's annual report shows how it's spending the revenue it gets from browser search engine deals.
+																	
+Kaspersky online protection API left open to abuse by websites
+
+									
+																			Updated: The internal API has been subject to not one, but multiple failed fix attempts.
+																	
+Two third-party SDKs allowed secret harvesting of Twitter and Facebook user data
+
+									
+																			OneAudience and MobiBurn discontinue their respective SDKs after another data collection scandal breaks out on Monday.
+																	
+Fullz House hackers pivot from phishing to Magecart card skimming attacks
+
+									
+																			However, they aren’t very good at hiding their tracks.
+																	
+Healthcare startup executives charged over $1 billion scam
+
+									
+																			Executives allegedly tampered with the balance sheet and sold stock they did not have.
+																	
+Global 5G population to hit 2.6B in 2025: Ericsson
+
+									
+																			Some 65% of the world's population will have 5G coverage by end-2025, which networks will handle 45% of all mobile data traffic.
+																	© 2019 CBS Interactive. All rights reserved.
+                    Privacy Policy |
+                    Cookies |
+                    Ad Choice |
+                    Advertise |
+                    Terms of Use |
+                    Mobile User Agreement
