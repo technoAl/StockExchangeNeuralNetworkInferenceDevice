@@ -110,8 +110,11 @@ def getStock(code, year, month, day):
               dict = stock[str(year) + '-' + str(month) + '-' + '0' + str(day)]
        return dict['close'] - dict['open']
 
+def stockDayrange(code, year, month, start, end):
+       for i in range(start, end+1):
+              obtainTrainingData(code, year, month, i)
+
 if __name__ == '__main__':
-       for i in range(26, 32):
-               obtainTrainingData('MSFT', 2019, 10, i)
-       for i in range(1, 24):
-              obtainTrainingData('MSFT', 2019, 11, i)
+       stockDayrange('MSFT', 2019, 10, 26, 31)
+       stockDayrange('MSFT', 2019, 11, 1, 23)
+
