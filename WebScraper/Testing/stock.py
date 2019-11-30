@@ -1,3 +1,5 @@
+#purely for testing purposes
+
 from iexfinance.stocks import Stock
 from iexfinance.stocks import get_historical_data
 from datetime import datetime
@@ -12,4 +14,5 @@ def getStock(code, year, month, day):
     dict = stock[str(year) + '-' + str(month) + '-' + str(day)]
     print(dict['close'] - dict['open'])
 
-getStock('TSLA', 2019, 10, 10)
+if __name__ == '__init__':
+    getStock('TSLA', 2019, 10, 10)
