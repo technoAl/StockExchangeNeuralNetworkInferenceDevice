@@ -7,7 +7,6 @@ import requests
 from iexfinance.stocks import Stock
 from iexfinance.stocks import get_historical_data
 from datetime import datetime
-import numpy as np
 import csv
 
 def obtainTrainingData(code, year, month, day):
@@ -115,6 +114,6 @@ def stockDayrange(code, year, month, start, end):
               obtainTrainingData(code, year, month, i)
 
 if __name__ == '__main__':
-       stockDayrange('MSFT', 2019, 10, 26, 31)
-       stockDayrange('MSFT', 2019, 11, 1, 23)
+       #stockDayrange('MSFT', 2019, 10, 26, 31)
+       #stockDayrange('MSFT', 2019, 11, 1, 23)
 
