@@ -115,6 +115,7 @@ def stockDayrange(code, year, month, start, end):
 
 if __name__ == '__main__':
        #stockDayrange('MSFT', 2019, 10, 26, 31)
-       stockDayrange('FB', 2019, 11, 23, 30)
-       stockDayrange('FB', 2019, 12, 1, 5)
+       stockDayrange('FB', 2019, 12, 5, 6)
+       stockDayrange('MSFT', 2019, 12, 5, 6)
+       stockDayrange('TSLA', 2019, 12, 5, 6)
 
