@@ -123,4 +123,3 @@ if __name__ == '__main__':
        #stockDayrange('MSFT', 2019, 10, 26, 31)
        stockDayrange('FB', 2019, 12, 1, 9)
        stockDayrange('MSFT', 2019, 12, 1, 9)
-       stockDayrange('TSLA', 2019, 12, 1, 9)
