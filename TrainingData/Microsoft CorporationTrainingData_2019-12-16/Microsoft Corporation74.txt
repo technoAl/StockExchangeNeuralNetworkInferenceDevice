@@ -1,0 +1,51 @@
+  Hello, readers.Happy Thanksgiving! With Black Friday behind us and Cyber Monday still to come, many may be focused on how the make-or-break shopping days are shaping up for retailers. But here on the finance team, we're taking a look at the payments and card companies that underpin all that spending. Turns out, PayPal is already planning for the 2020 shopping rush. As Dan DeFrancesco reports, the payments giant is working to move a portion of its services — including parts of transactions — into the public cloud for the first time. PayPal's CTO told us he's aiming to get 25% of traffic onto the Google Cloud Platform by late next year. We've already written plenty about how financial firms (even some notable holdouts) are slowly but surely embracing the public cloud. PayPal's tech chief Sri Shivananda explained why, for ecommerce payments in particular, it makes sense. "When you run something on-prem, you build capacity for the peak of the peak, and you are holding on to that capacity. You paid for it, and you continue to depreciate it every day," he told us. Read all the details on PayPal's plans to cut costs with a cloud move. American Express may conjure up images of corporate cards and airport lounge perks, but for 10 years the card network and issuer has also pumped up its own post-Thanksgiving promotion for small businesses. Banks have beefed up rewards on their own cards, which has been upping pressure on AmEx to get in front of more people in more places. (Last week, the Wall Street Journal reported that AmEx has been paying some small businesses hefty bonuses to accept its cards — and swipe fees.)Shannen Balogh attended an AmEx Small Business Saturday event in New York, and wrote about how the company is betting on a sweet spot that blends digital and brick-and-mortar shopping. What that looked like in practice was biometric doughnut recommendations and augmented-reality wine bottles. A package delivery robot was twirling around, too, making for a mesmerizing GIF — words can't really do it all justice, so check out the full story here.We've been to a number of these kinds of splashy tech showcases from card companies (and seen Mastercard's shrimp-tracking blockchain first-hand.) But the efforts do underline what's become a popular view on the future of payments —VC investors have told us they see opportunities pairing tech with payments to create a shopping experience (and collect and analyze more customer data) as opposed to simply moving money around. We also had some must-reads this week on Wall Street people moves that are worth revisiting. As Casey Sullivan reports, Goldman Sachs has assembled a team of senior bankers devoted exclusively to building relationships with middle-market private equity firms. It's a first for the investment banking giant — read here for details on key hires. Casey also wrote about how private equity giants like Blackstone have been expanding their rosters by bringing on more operating partners to squeeze returns out of portfolio companies. Read more here about that changing power dynamic. And Alex Morrell rounded up the biggest investment banking people moves of 2019: see the full list of 40 here. Turmoil at Deutsche Bank was a major factor driving those moves across Wall Street, with competitors scooping up at least 15 of its MDs in the US so far this year. So to do that trend justice, he's also assembled a breakout of must-know Deutsche Bank dealmaker departures. Keep reading to see how we unpacked a Charles Schwab-TD Ameritrade tie-up and explained what exactly a family office is and isn't. Plus — a roundup of the latest fintech and proptech news. Enjoy the weekend!Meredith 
+
+
+
+
+
+
+
+
+        REUTERS/Peter Nicholls/File Photo
+      
+
+
+
+
+
+
+
+
+
+
+        In this April 16, 2009 photo, a worker polishes the metal window frame of a TD Ameritrade office in New York. Online brokerage TD Ameritrade Holding Corp. said Tuesday, April 21, its second-quarter profit dropped 29 percent because of lower asset-based revenue, but the results were in line with Wall Street expectations. It is also affirming its guidance for full-year earnings.
+      
+AP Photo/Mark Lennihan
+
+Charles Schwab ended days of speculation on Monday by announcing plans to buy its smaller rival TD Ameritrade in an all-stock deal valued at about $26 billion.That sets the stage for a megamerger that would remake the US discount brokerage landscape, and it comes after rapid-fire moves to slash commissions rocked the industry and fueled chatter that consolidation and cost-cutting would follow.The San Francisco-based Charles Schwab and the Omaha, Nebraska-based TD Ameritrade, the two largest publicly traded US discount brokerages and registered investment adviser custodians, would together oversee some $5 trillion in assets. Deal talks were underway before the two discount brokerages announced they would eliminate online trading commissions for US stocks and exchange-traded funds in October, a source familiar with the matter said, and scaling up amid the industry's fee pressure was a main driver.
+
+
+
+
+
+
+
+
+        Ruobing Su/Business Insider
+      
+
+When it comes to overseeing the wealthiest families' complicated financial lives, executives toss around the phrase "if you've met one family office, you've met one family office." In other words, no two family offices are the same, because no two families are the same.Pinpointing the precise size of the single- and multi-family office universe is difficult given the secrecy with which many of them operate. Business Insider has previously reported that family offices, historically an opaque corner of the wealth universe, are seeing slightly more light than in the past. That's thanks in part to the desire to partake in more direct deals (the practice of investing directly in a company rather than through a vehicle like a fund.)Carly Doshi, the head of philanthropy and family office governance at HSBC's private bank for the Americas, recently spoke with Business Insider about how she explains the term to ultra-rich families, and what deploying a family office actually looks like in practice. 
+
+
+
+
+
+
+
+
+        AP
+      
+
+Americans are spending 37% of their income on housing expenses, seven percent higher than the standard measure of housing affordability.Housing affordability is plummeting, inventory is declining, and the high cost of labor and construction makes building new middle-income housing financially untenable for developers. These factors have led to a squeeze in middle-class housing, one that's led venture capitalists to invest in construction tech that drives the cost of development down, and activists to push for rent control measures across the country. At Nuveen's Real Estate Roundtable 2020 event last week, James Martha, managing director and head of housing sector in the Americas, highlighted middle-income rentals as a sector of concern. Simply put, there isn't enough affordable housing, and developers aren't incentivized to build more affordably-priced stock.  
+

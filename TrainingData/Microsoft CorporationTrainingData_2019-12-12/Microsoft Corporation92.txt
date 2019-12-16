@@ -1,0 +1,7 @@
+
+
+
+
+There are more than 2.5 billion active Android devices worldwide—and that number is growing. A major force behind that growth is Google Play, the global online content store that brings incredible apps, games and digital content to Android users everywhere.Today we are publishing the “How Google Play Works” report, a comprehensive look under the hood at how the Play Store operates, focusing on how we keep users safe and how we support developers and help them build sustainable global businesses. At Android Dev Summit 2019, we announced that there were over 116 billion downloads from Google Play in the last 12 months. With such scale comes an enormous responsibility to respect and protect everyone involved—both the people downloading the apps, and the developers creating them.This is why we continually review our Google Play developer policies, which cover topics ranging from bullying and harassment to malware. It’s why we try to scan all apps being installed with Play Protect, even apps that don’t come from Play. It’s also why we invest heavily in helping to make developers successful in sustainable ways that respect our users and their devices.Creating a global platform for everyone and providing useful tools for developers has been our goal since we launched the very first Android device. As content and devices evolve, so will the Google Play Store, and we look forward to bringing developers and users the very best digital discovery and store experience. 
+              Follow Us
+            
