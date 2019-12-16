@@ -39,7 +39,7 @@ def obtainTrainingData(code, year, month, day):
                             except Exception as inst:
                                    print('darned emojis')
               else:
-                     print("unfortunate failure")
+                     print("unfortunate failure, page failure")
               file.close()
               count+=1
 
@@ -84,15 +84,18 @@ def makeURL(query, date, pageSize):
               'apiKey=13bd628fa8b548738d3b113d9442574e&'
               'language=en')
 
+#gets query from the stock code
 def getQuery(code):
        return get_symbol(code).split(',')[0]
 
+#checks if the day is a weekday, if not don't do anything
 def isWeekday(today):
        if today.weekday() >= 5:
               return False
        else:
               return True
 
+#never used, don't question, gets symbol from company name
 def get_symbol(symbol):
        url = "http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={}&region=1&lang=en".format(symbol)
        result = requests.get(url).json()
@@ -100,6 +103,7 @@ def get_symbol(symbol):
               if x['symbol'] == symbol:
                      return x['name']
 
+#gets stock difference between opening and closing that day
 def getStock(code, year, month, day):
        start = datetime(year, month, day)
        stock = get_historical_data(code, start, start, token='pk_3fc4f2751a6746f3b1cdc30763095572')
@@ -109,13 +113,13 @@ def getStock(code, year, month, day):
               dict = stock[str(year) + '-' + str(month) + '-' + '0' + str(day)]
        return dict['close'] - dict['open']
 
+#Get data for stocks in given range
 def stockDayrange(code, year, month, start, end):
        for i in range(start, end+1):
               obtainTrainingData(code, year, month, i)
 
+#Main Function
 if __name__ == '__main__':
        #stockDayrange('MSFT', 2019, 10, 26, 31)
-       stockDayrange('FB', 2019, 12, 5, 6)
-       stockDayrange('MSFT', 2019, 12, 5, 6)
-       stockDayrange('TSLA', 2019, 12, 5, 6)
-
+       stockDayrange('FB', 2019, 12, 1, 9)
+       stockDayrange('MSFT', 2019, 12, 1, 9)

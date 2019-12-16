@@ -1,1 +1,55 @@
-The launch of Stadia is only a week away, so it’s extremely surprising that we’re only learning about its launch titles now—after pre-orders have already happened. But given the list of games available maybe it makes sense that Google held off so long.As launch lists go the Stadia one has me worried. When Stadia launches November 19 it will be with just 12 titles—almost all of which have already launched on other platforms. They include:That’s a very good selection of games—with a couple being some of the best games made... when they came out months or even years ago. The problem with this list is it’s almost all older content. The only exclusive on the list is GYLT, a cool looking puzzle game from indie developer Tequila Works. GYLT definitely looks like a neat game, but it’s the only one in the line up that might persuade you to subscribe to Stadia if you already own a console or gaming PC.Not that Stadia ever seemed to be relying on exclusives, in the first place. The whole appeal of the platform seems to be that it’s for people who haven’t invested in a console already, or who travel so much it isn’t feasible to bring their console with them. And there’s a lot of people like that! When it’s developer conference season and I’m zigzagging around the U.S. I’d love nothing more than a set up like Stadia, which lets me play AAA games from my phone or laptop.The problem is what isn’t on the launch list but what is expected this year—namely a bunch of other games that are already out. Borderlands 3, Wolfenstein: Youngblood, and Final Fantasy XV have all been available long enough on other platforms that it’s genuinely confusing that they’re not available at launch on Stadia. Doom Eternal, which I played on a Chromebook back at e3, doesn’t even how a promised 2019 launch date. That’s not good!In a blog post today Google notes they’ll all launch on the platform by the end of 2019, but what does this mean for games launching in 2020 to Stadia, PS4, and Xbox One? Cyberpunk 2077 is a highly-anticipated game expected early next year, and I can see Stadia subscribers being deeply annoyed if they have to wait months after launch to play it. If Google is going to be launching games on Stadia months after the launch on other platforms its appeal starts to diminish a little. Sure you’ll be able to play the games without the need of a console, but will the wait be worth it?Senior Reviews Editor. Trained her dog to do fist bumps. Once wrote for Lifetime. Tips encouraged via Secure Drop, Proton Mail, or DM for Signal.
+We’re one month out from Disrupt Berlin (11-12 December), and no matter which part of the startup ecosystem you inhabit, Disrupt Berlin is a huge opportunity to learn, network and gain inspiration.Consider these five reasons why you should buy a pass to Disrupt Berlin and join thousands of founders, investors and technologists for two potential-packed days that could change the trajectory of your business.As hard as founders work, it takes a network to make startup dreams come true. Networking at Disrupt Berlin puts you in touch with people who can help you move toward your goal. Connect with investors, developers, engineers, founders, marketers and more. Sizing up investors? Got questions about manufacturing or product development?You’ll find the right people a lot faster and more efficiently thanks to CrunchMatch, the free business match-making platform we’re making available to all attendees. When CrunchMatch goes live (before the conference starts), we’ll email to all registered attendees instructions for accessing the platform.You create a profile outlining your role and the type of connections you want to make. CrunchMatch suggests connections based on similar goals and then — subject to your approval — the platform handles all the scheduling details. It’s simple and it connects you with the people you really want to meet. And there will be nearly 3,000 from which to choose.TechCrunch’s editors have spent months picking speakers for the Disrupt stage who reflect the current trends and conversations in the startup ecosystem. The editors’ interviews focus on teasing out the information and insights everyone wants to hear. And if you have questions of your own, many of the speakers will be available for audience questions at a follow-up Q&A.New to Disrupt Berlin this year, The Extra Crunch Stage features experienced operators giving practical, real-world advice on how to launch, run and grow a successful startup, including the chance for you to ask our experts your questions. We launched this stage earlier this year in San Francisco, and the ”how to” programming was a huge hit. Curious about what it takes to raise a Series A? Are you all about SaaS? Need help with your PR and branding strategy? Or thinking of scaling your startup globally? We have you covered.And there’s so much more programming waiting for you across several stages — plan your time and check out the Disrupt Berlin agenda.There’s no better startup launch pad than our world-renowned Startup Battlefield. Since 2007, this global pitch competition has launched 857 companies — like Vurb, Dropbox, Mint and Yammer. They’ve collectively raised $8.9 billion and produced 113 exits. Who will join their ranks?Be in the room to watch this year’s outstanding cohort go head-to-head in a fierce battle to win the judges’ hearts and minds. Oh, right — they’ll also win the Disrupt Cup, intense media and investor love and a $50,000 equity-free cash infusion. It all goes down live on the Main Stage, and it’s streamed live to a global audience.Opportunity is the name of the game in Startup Alley — the expo floor and heartbeat of Disrupt Berlin. It’s where you’ll find hundreds of early-stage startups showcasing the latest products, platforms and services across the tech spectrum. Looking for potential customers, collaborators, mentors or just curious about new technology? Head to Startup Alley, because you never know who you’ll meet.Here’s another great reason to go — you’ll find our TC Top Picks. TechCrunch editors hand-picked up to five stellar startups to represent the best of the following tech categories: AI/Machine Learning, Biotech/Healthtech, Blockchain, Fintech, Mobility, Privacy/Security, Retail/E-commerce, Robotics/IoT/Hardware, CRM/Enterprise and Education.You’re focused on making your startup dreams come true. Investing two days at Disrupt to meet new, yet like-minded people can shake things up in the best possible way. Connect with your community, refresh your thinking, share ideas and hear new perspectives. And maybe meet a future partner, investor or employee. Go home inspired to dig deeper and work harder.Well, there you have it. Five awesome reasons to hop off the fence, buy a pass to Disrupt Berlin and join us on 11-12 December.Is your company interested in sponsoring or exhibiting at Disrupt Berlin 2019? Contact our sponsorship sales team by filling out this form. 
+
+
+		( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527'
+						}, "https:\/\/tcprotectedembed.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'tcprotectedembed.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )();
+	
