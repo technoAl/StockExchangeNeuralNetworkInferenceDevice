@@ -35,6 +35,10 @@ print(len(a))
 """
 Neural Network Model Creation
 """
+
+"""
+Based on code from https://medium.com/@sabber/classifying-yelp-review-comments-using-lstm-and-word-embeddings-part-1-eb2275e4066b
+"""
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.layers import Dense, Input, LSTM, Embedding, Dropout, Activation
