@@ -71,12 +71,10 @@ tokenizer.fit_on_texts(list(x_train))
 x_train = tokenizer.texts_to_sequences(x_train)
 model1 = tf.keras.Sequential()
 model1.add(Embedding(max_features, embed_size, input_length=maxlen))
-model1.add(Bidirectional(LSTM(128, return_sequences=True)))
-model1.add(Bidirectional(LSTM(32, return_sequences=True)))
-model1.add(GlobalMaxPool1D())
-model1.add(Dense(16, activation='relu'))
-model1.add(Dense(2,activation='softmax'))
-model1.compile(loss='sparse_categorical_crossentropy', optimizer=tf.keras.optimizers.Adam(np.e), metrics=['accuracy'])
+model1.add(Bidirectional(LSTM(64, return_sequences=True)))
+model1.add(Dense(64, activation='relu'))
+model1.add(Dense(1,activation='softmax'))
+model1.compile(loss='binary_crossentropy', optimizer=tf.keras.optimizers.Adam(np.e-4), metrics=['accuracy'])
 model1.summary()
 x_trainR = np.array(x_train)[:2200]
 y_trainR = np.array(y_train)[:2200]
@@ -100,13 +98,6 @@ def toFinal(a):
             a[i] = 1
         else:
             a[i] = 0
-
-
-# In[ ]:
-
-
-
-
 
 # In[5]:
 
