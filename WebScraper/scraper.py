@@ -120,7 +120,6 @@ def stockDayrange(code, year, month, start, end):
 
 #Main Function
 if __name__ == '__main__':
-       #stockDayrange('MSFT', 2019, 10, 26, 31)
        print('Type Code')
        code = str(input())
        print('Type Month')
