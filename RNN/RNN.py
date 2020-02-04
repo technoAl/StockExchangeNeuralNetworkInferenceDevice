@@ -73,11 +73,13 @@ model1 = tf.keras.Sequential()
 model1.add(Embedding(max_features, embed_size, input_length=maxlen))
 model1.add(Bidirectional(LSTM(128, return_sequences=True)))
 model1.add(Bidirectional(LSTM(64, return_sequences=True)))
-model1.add(Dense(32, activation='relu'))
-model1.add(Dense(16, activation='relu'))
-model1.add(Dense(8, activation='relu'))
+model1.add(Dense(32, activation='tanh'))
+model1.add(Dense(16, activation='tanh'))
+model1.add(Dense(8, activation='tanh'))
+model1.add(Dense(4, activation='tanh'))
+model1.add(Dense(2, activation='tanh'))
 model1.add(Dense(1,activation='softmax'))
-model1.compile(loss='sparse_categorical_crossentropy', optimizer=tf.keras.optimizers.Adam(np.e), metrics=['accuracy'])
+model1.compile(loss='sparse_categorical_crossentropy', optimizer=tf.keras.optimizers.Adam(1e+15), metrics=['accuracy'])
 model1.summary()
 x_trainR = np.array(x_train)[:2200]
 y_trainR = np.array(y_train)[:2200]
@@ -156,7 +158,7 @@ print(y_test.shape)
 """
 Trains Model
 """
-history = model1.fit(x_train, y_train, epochs=100, batch_size=25, validation_data=(x_test, y_test))
+history = model1.fit(x_train, y_train, epochs=100, batch_size=20, validation_data=(x_test, y_test))
 
 
 # In[ ]:
@@ -201,3 +203,4 @@ print(len(y_test[y_test==1]))
 
 
 
+    
