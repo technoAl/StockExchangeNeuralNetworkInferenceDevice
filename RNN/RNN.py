@@ -94,6 +94,8 @@ x_test = pad_sequences(x_test, maxlen=maxlen)
 # In[4]:
 
 
+
+
 """
 Formats data labels
 """
@@ -158,9 +160,9 @@ print(y_test.shape)
 """
 Trains Model
 """
-history = model1.fit(x_train, y_train, epochs=100, batch_size=20, validation_data=(x_test, y_test))
+history = model1.fit(x_train, y_train, epochs=10, batch_size=20, validation_data=(x_test, y_test))
 
-
+model1.save('Model')
 # In[ ]:
 
 
@@ -173,8 +175,6 @@ def predict(x):
 
 # In[ ]:
 
-
-print(model1.weights)
 
 
 # In[ ]:
