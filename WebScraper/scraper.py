@@ -9,6 +9,7 @@ from iexfinance.stocks import get_historical_data
 from datetime import datetime
 import csv
 
+# obtains the training data and writes it to a file
 def obtainTrainingData(code, year, month, day):
        date = str(year) + '-' + str(month) + '-' + str(day)
        query = getQuery(code)
@@ -57,6 +58,7 @@ def getData(url):
               print('unfortunate failure')
               return
 
+#Adds stock to the csv
 def appendStock(fullName, path, code, year, month, day, query):
        os.makedirs(os.path.dirname(fullName), exist_ok=True)
        with open(fullName, 'w', newline='') as csvfile:
@@ -75,6 +77,7 @@ def appendStock(fullName, path, code, year, month, day, query):
               except:
                      print('no stock data')
 
+#makes the url
 def makeURL(query, date, pageSize):
        return ('https://newsapi.org/v2/everything?'
               'q=' + query + '&'
