@@ -133,7 +133,197 @@ print(x_train.shape, x_test.shape)
 
 
 
+# Loads glove, which contains english words and their embeddings into 50-dimensional vectors
 
-print(len(y_test[y_test == 0]))
-print(len(y_test[y_test == 1]))
 
+def l2loss(pred, actual):  # L2 loss function (mean square distance)
+    """
+
+    Parameters
+    ----------
+    pred: Union[mygrad.Tensor, numpy.ndarray]
+        A tensor or numpy array containing the model's predicted values
+    actual: Union[mygrad.Tensor, numpy.ndarray]
+        A tensor or numpy array containing the actual values
+
+    Returns
+    -------
+    mg.Tensor
+        A tensor containing the mean square distance between the prediction and actual values.
+    """
+    return mg.mean(mg.square(pred - actual))
+
+
+class RNN:  # The RNN class, which passes the data through a gated recurrent unit to convert each sentence into an array
+    def __init__(self, dim_input, dim_recurrent, dim_output):
+        """ Initializes all layers needed for RNN
+
+        Parameters
+        ----------
+        dim_input: int
+            Dimensionality of data passed to RNN (C)
+
+        dim_recurrent: int
+            Dimensionality of hidden state in RNN (D)
+
+        dim_output: int
+            Dimensionality of output of RNN (K)
+        """
+
+        self.fc_h2y = dense(dim_recurrent, dim_output, weight_initializer=glorot_normal)
+        self.Uz = mg.Tensor(
+            np.random.randn(dim_input * dim_recurrent).reshape(dim_input, dim_recurrent)
+        )
+        self.Wz = mg.Tensor(
+            np.random.randn(dim_recurrent * dim_recurrent).reshape(
+                dim_recurrent, dim_recurrent
+            )
+        )
+        self.bz = mg.Tensor(np.random.randn(dim_recurrent))
+        self.Ur = mg.Tensor(
+            np.random.randn(dim_input * dim_recurrent).reshape(dim_input, dim_recurrent)
+        )
+        self.Wr = mg.Tensor(
+            np.random.randn(dim_recurrent * dim_recurrent).reshape(
+                dim_recurrent, dim_recurrent
+            )
+        )
+        self.br = mg.Tensor(np.random.randn(dim_recurrent))
+        self.Uh = mg.Tensor(
+            np.random.randn(dim_input * dim_recurrent).reshape(dim_input, dim_recurrent)
+        )
+        self.Wh = mg.Tensor(
+            np.random.randn(dim_recurrent * dim_recurrent).reshape(
+                dim_recurrent, dim_recurrent
+            )
+        )
+        self.bh = mg.Tensor(np.random.randn(dim_recurrent))
+
+    def __call__(self, x):
+        """ Performs the full forward pass for the RNN.
+
+        Note that we only care about the last y - the final classification scores for the full sequence
+
+        Parameters
+        ----------
+        x: Union[numpy.ndarray, mygrad.Tensor], shape=(T, C)
+            The one-hot encodings for the sequence
+
+        Returns
+        -------
+        mygrad.Tensor, shape=(1, K)
+            The final classification of the sequence
+        """
+
+        h = mg.nnet.gru(
+            x,
+            self.Uz,
+            self.Wz,
+            self.bz,
+            self.Ur,
+            self.Wr,
+            self.br,
+            self.Uh,
+            self.Wh,
+            self.bh,
+        )
+        return self.fc_h2y(h[-1])
+
+    @property
+    def parameters(self):
+        """ A convenience function for getting all the parameters of our model.
+
+        This can be accessed as an attribute, via `model.parameters`
+
+        Returns
+        -------
+        Tuple[Tensor, ...]
+            A tuple containing all of the learnable parameters for our model
+        """
+        return self.fc_h2y.parameters + (
+        self.Uz, self.Wz, self.bz, self.Ur, self.Wr, self.br, self.Uh, self.Wh, self.bh)
+
+MAXLEN = 100
+
+def to_glove(sentence):
+    out = []
+    for word in sentence.split():
+        word = word.lower()
+        try:
+            out.append(glove[word])
+        except:
+            continue
+    if len(out) > MAXLEN:
+        out = out[:MAXLEN]
+    elif len(out) < MAXLEN:
+        for _ in range(len(out), MAXLEN):
+            out.append(np.zeros(50))
+    if len(out) != MAXLEN:
+        print("BAAAAAAAAD")
+    return out
+
+x_train = list(x_train)
+
+for i in range(len(x_train)):
+    x_train[i] = np.array(to_glove(x_train[i]))
+
+x_train = np.array(x_train)
+
+print(x_train[0].shape, x_train[1].shape)
+print("SHAPEEE: ", x_train.shape)
+
+
+dim_input = 50
+dim_recurrent = 16
+dim_output = 2
+rnn = RNN(dim_input, dim_recurrent, dim_output)
+optimizer = Adam(rnn.parameters)
+
+plotter, fig, ax = create_plot(metrics=["loss"])
+
+batch_size = 20
+
+# Trains the model over 10 epochs.
+for epoch_cnt in range(50):
+    idxs = np.arange(len(x_train))
+    np.random.shuffle(idxs)
+    print("training epoch number ", epoch_cnt)
+
+    for batch_cnt in range(0, len(x_train) // batch_size):
+        batch_indices = idxs[batch_cnt * batch_size: (batch_cnt + 1) * batch_size]
+
+        old = x_train[batch_indices]
+        batch = np.ascontiguousarray(np.swapaxes(old, 0, 1))
+        prediction = rnn(batch)
+        # print(prediction.shape)
+        truth = y_train[batch_indices]
+        # print("pred: ", prediction)
+        # print("truth: ", truth)
+        loss = softmax_crossentropy(prediction, truth)
+
+        loss.backward()
+
+        optimizer.step()
+        loss.null_gradients()
+
+        plotter.set_train_batch({"loss": loss.item()}, batch_size=batch_size)
+    plotter.set_train_epoch()
+
+diff = 0
+sum = 0
+
+# Tests the model
+for i in range(len(y_train)):
+    old = x_train[i]
+    w = np.ascontiguousarray(np.swapaxes(np.array(old).reshape(1, 78, 50), 0, 1))
+    pred = rnn(w)
+    true = y_train[i]
+    diff += mg.abs(pred - true)
+    sum += true
+
+i = 1
+old = x_train[i]
+
+w = np.ascontiguousarray(np.swapaxes(np.array(old).reshape(1, 78, 50), 0, 1))
+pred = rnn(w)
+true = y_train[i]
