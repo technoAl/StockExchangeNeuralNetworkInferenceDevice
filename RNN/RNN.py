@@ -1,16 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 import tensorflow as tf
 import numpy as np
-
-
-# In[2]:
-
 
 """
 File Reading
@@ -39,10 +34,6 @@ for i in range(1,30):
 		except:
 			print("11/"+str(i))
 print(len(a))
-
-
-# In[3]:
-
 
 """
 Neural Network Model Creation
@@ -90,12 +81,6 @@ y_train = y_trainR
 x_train = pad_sequences(x_train, maxlen=maxlen)
 x_test = pad_sequences(x_test, maxlen=maxlen)
 
-
-# In[4]:
-
-
-
-
 """
 Formats data labels
 """
@@ -105,9 +90,6 @@ def toFinal(a):
 			a[i] = 1
 		else:
 			a[i] = 0
-
-# In[5]:
-
 
 """
 Reads and formats data labels
@@ -140,10 +122,6 @@ y_train = np.array(y_train)
 print(y_train.shape)
 print(x_train.shape)
 
-
-# In[6]:
-
-
 print(np.count_nonzero(y_train))
 print(y_train.size)
 y_test = y_train[1200:1500]
@@ -153,18 +131,12 @@ x_train = x_train[:1200]
 print(x_test.shape)
 print(y_test.shape)
 
-
-# In[7]:
-
-
 """
 Trains Model
 """
 history = model1.fit(x_train, y_train, epochs=10, batch_size=20, validation_data=(x_test, y_test))
 
 model1.save('Model')
-# In[ ]:
-
 
 def predict(x):
 	tokenizer = Tokenizer(num_words=max_features)
@@ -172,15 +144,6 @@ def predict(x):
 	x =pad_sequences(tokenizer.texts_to_sequences(x), maxlen=maxlen)
 	return model1.predict(x)
 
-
-# In[ ]:
-
-
-
-# In[ ]:
-
-
-#get_ipython().run_line_magic('matplotlib', 'notebook')
 import matplotlib.pyplot as plt
 loss = history.history['loss']
 plt.plot(loss)
@@ -190,17 +153,5 @@ val_acc = history.history['val_accuracy']
 plt.plot(val_acc)
 plt.ylim(0,5)
 
-
-# In[12]:
-
-
 print(len(y_test[y_test==0]))
 print(len(y_test[y_test==1]))
-
-
-# In[ ]:
-
-
-
-
-    
