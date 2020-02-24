@@ -81,11 +81,11 @@ def appendStock(fullName, path, code, year, month, day, query):
 def makeURL(query, date, pageSize):
 	return ('https://newsapi.org/v2/everything?'
 			'q=' + query + '&'
-						   'from=' + date + '&'
-											'sortBy=popularity&'
-											'pageSize=' + str(pageSize) + '&'
-																		  'apiKey=13bd628fa8b548738d3b113d9442574e&'
-																		  'language=en')
+			'from=' + date + '&'
+			'sortBy=popularity&'
+			'pageSize=' + str(pageSize) + '&'
+			'apiKey=13bd628fa8b548738d3b113d9442574e&'
+			'language=en')
 
 #gets query from the stock code
 def getQuery(code):
