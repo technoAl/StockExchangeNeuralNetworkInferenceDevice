@@ -2,13 +2,13 @@
 
 A neural network that takes an input of a certain stock company and outputs a prediction about whether the stock value will increase or decrease based on news data about the company from that day.
 
-inference.py is the file to be run in order to run the application, model.npy is the saved NN.
+[inference.py](inference.py) is the file to be run in order to run the application, model.npy is the saved NN.
 
-The RNN folder contains all neural network training files and scripts
+The [RNN](RNN) folder contains all neural network training files and scripts
 
-The WebScraper folder contains all web scraping files and scripts
+The [WebScraper](WebScraper) folder contains all web scraping files and scripts
 
-The trainingdata folder shows all the files collected in the training process using scraper.py
+The [TrainingData](TrainingData) folder shows all the files collected in the training process using [scraper.py](WebScraper/scraper.py)
 
 ## APIs + Libraries Utilized
 
