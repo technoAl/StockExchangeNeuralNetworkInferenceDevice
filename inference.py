@@ -145,7 +145,7 @@ class RNN:  # The RNN class, which passes the data through a gated recurrent uni
             The final classification of the sequence
         """
 
-        h = mg.nnet.gru(
+        h = mg.nnet.layers.gru(
             x,
             self.Uz,
             self.Wz,
@@ -227,15 +227,17 @@ def predict(multiple_sentences):
         print(pred, bad/(good+bad)*100, "percent sure")
 
 if __name__ == '__main__':
-    print('Type Code')
+    print('Type Code, in ALL CAPS')
     code = str(input())
+    print('Type day within the past month')
     print('Type Month')
     month = int(input())
     print('Type day')
-    day = str(input())
+    day = int(input())
     print('Type year')
     year = int(input())
-    inputData = obtainArticleContent(code, month, day, year)  # example data collection
+    inputData = obtainArticleContent(code, year, month, day)  # example data collection
+    print('successfully obtained data')
     params = np.load("model.npy", allow_pickle=True)  # loads trained model
     Keys = ["UP", "DOWN"]
     model = RNN(50, 16, 2)
@@ -254,6 +256,7 @@ if __name__ == '__main__':
         params[10]
     )
     glove = KeyedVectors.load_word2vec_format("glove.6B.50d.txt.w2v", binary=False)
+    print('loaded glove')
     print(code, day, month, year)
     predict(inputData)
 
