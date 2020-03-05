@@ -18,7 +18,7 @@ Uses the [NewsApi](https://newsapi.org/) library to locate top articles from the
 
 The webscraping and NewsAPI require the lxml library. This can be installed by rinning `pip install lxml`
 
-Uses the [MyGrad](https://github.com/rsokl/MyGrad) library for the neural network forward pass and back propogation.
+Uses the [MyGrad](https://github.com/rsokl/MyGrad) and [MyNN](https://github.com/davidmascharka/MyNN) libraries for the neural network forward pass and back propogation.
 
 The Numba library is required to run inference. This can be installed by running `pip install numba`
 
