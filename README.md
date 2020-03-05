@@ -29,4 +29,4 @@ The [Gensim](https://pypi.org/project/gensim/) library is required to load the G
 
 ## Results
 
-The neural network achieved a final accuracy of approximately 64 percent
+The neural network achieved a final accuracy of approximately 64.3 percent
