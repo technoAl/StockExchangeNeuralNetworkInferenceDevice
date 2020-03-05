@@ -20,8 +20,8 @@ The webscraping and NewsAPI require the lxml library. This can be installed by r
 
 Uses the [MyGrad](https://github.com/rsokl/MyGrad) and [MyNN](https://github.com/davidmascharka/MyNN) libraries for the neural network forward pass and back propogation.
 
-The Numba library is required to run inference. This can be installed by running `pip install numba`
+The [Numba](http://numba.pydata.org/) library is required to run inference. This can be installed by running `pip install numba`
 
 Uses the Global Vector Library GloVe-50, which converts words to 50-dimensional vectors. The GloVe file can be downloaded [here](https://www.dropbox.com/s/c6m006wzrzb2p6t/glove.6B.50d.txt.w2v.zip?dl=0).
 
-The Gensim library is required to load the GloVe library. This can be installed by running `pip install gensim`
+The [Gensim](https://pypi.org/project/gensim/) library is required to load the GloVe library. This can be installed by running `pip install gensim`
