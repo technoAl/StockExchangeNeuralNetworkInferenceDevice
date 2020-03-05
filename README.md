@@ -10,7 +10,7 @@ The WebScraper folder contains all web scraping files and scripts
 
 The trainingdata folder shows all the files collected in the training process using scraper.py
 
-##APIs + Libraries Utilized
+## APIs + Libraries Utilized
 
 Uses the [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) library for all webscraping
 
