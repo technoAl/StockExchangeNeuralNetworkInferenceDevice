@@ -16,6 +16,8 @@ Uses the [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 Uses the [NewsApi](https://newsapi.org/) library to locate top articles from the day containing a query
 
+The webscraping and NewsAPI require the lxml library. This can be installed by rinning `pip install lxml`
+
 Uses the [MyGrad](https://github.com/rsokl/MyGrad) library for the neural network forward pass and back propogation.
 
 The Numba library is required to run inference. This can be installed by running `pip install numba`
